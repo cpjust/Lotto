@@ -1,0 +1,3909 @@
+min_number = 1
+max_number = 49
+how_many_numbers = 7
+how_many_bonus = 1
+how_many_hand_picked_lines = 1
+how_many_quick_pick_lines = 2
+cost_per_ticket = 5
+quick_pick_pool_size = 100
+how_many_tickets_bought = 14
+verbose mode = True
+
+[Game 1]: We won: $0, and 0 Free Tickets.
+
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+[Game 2]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 9, 10, 14, 16, 26, 45] won: $0 & 1 Free tickets.
+[Game 3]: We won: $0, and 1 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 4]: We won: $0, and 2 Free Tickets.
+
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 5]: We won: $0, and 1 Free Tickets.
+
+Ticket [2, 10, 17, 19, 28, 30, 45] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 6]: We won: $0, and 2 Free Tickets.
+
+Ticket [14, 15, 17, 18, 22, 27, 30] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+[Game 7]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $20 & 0 Free tickets.
+[Game 8]: We won: $20, and 1 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 9]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 10]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 11]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 12]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+[Game 13]: We won: $0, and 1 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 14]: We won: $0, and 3 Free Tickets.
+
+Ticket [4, 13, 19, 22, 27, 36, 38] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $20 & 0 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 15]: We won: $20, and 4 Free Tickets.
+
+Ticket [2, 5, 7, 9, 10, 12, 35] won: $20 & 0 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 16]: We won: $20, and 1 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 30] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+[Game 17]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+[Game 18]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 15, 17, 22, 30, 32, 34] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 19]: We won: $0, and 3 Free Tickets.
+
+Ticket [4, 5, 9, 12, 16, 18, 20] won: $0 & 1 Free tickets.
+[Game 20]: We won: $0, and 1 Free Tickets.
+
+[Game 21]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+[Game 22]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $20 & 0 Free tickets.
+[Game 23]: We won: $20, and 0 Free Tickets.
+
+[Game 24]: We won: $0, and 0 Free Tickets.
+
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 25]: We won: $0, and 3 Free Tickets.
+
+[Game 26]: We won: $0, and 0 Free Tickets.
+
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 27]: We won: $0, and 2 Free Tickets.
+
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 28]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 17, 28, 29, 32, 37, 43] won: $20 & 0 Free tickets.
+Ticket [16, 23, 29, 30, 37, 38, 43] won: $0 & 1 Free tickets.
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+[Game 29]: We won: $20, and 2 Free Tickets.
+
+Ticket [1, 3, 7, 9, 12, 14, 31] won: $0 & 1 Free tickets.
+Ticket [2, 5, 7, 9, 10, 12, 35] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 30]: We won: $0, and 5 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 31]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+[Game 32]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+[Game 33]: We won: $0, and 3 Free Tickets.
+
+[Game 34]: We won: $0, and 0 Free Tickets.
+
+Ticket [11, 16, 24, 30, 33, 39, 47] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+[Game 35]: We won: $0, and 3 Free Tickets.
+
+[Game 36]: We won: $0, and 0 Free Tickets.
+
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+[Game 37]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 14, 17, 24, 30, 36, 46] won: $20 & 0 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 38]: We won: $20, and 3 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 30] won: $0 & 1 Free tickets.
+Ticket [1, 4, 8, 9, 11, 12, 33] won: $0 & 1 Free tickets.
+Ticket [3, 6, 8, 11, 13, 16, 40] won: $0 & 1 Free tickets.
+Ticket [4, 5, 13, 16, 39, 44, 45] won: $0 & 1 Free tickets.
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 39]: We won: $0, and 6 Free Tickets.
+
+Ticket [6, 11, 12, 29, 32, 41, 42] won: $0 & 1 Free tickets.
+[Game 40]: We won: $0, and 1 Free Tickets.
+
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 41]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [6, 15, 26, 37, 38, 46, 48] won: $0 & 1 Free tickets.
+Ticket [5, 7, 9, 13, 20, 46, 48] won: $0 & 1 Free tickets.
+Ticket [4, 5, 18, 22, 24, 47, 48] won: $0 & 1 Free tickets.
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 42]: We won: $0, and 11 Free Tickets.
+
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+Ticket [4, 15, 17, 22, 29, 34, 38] won: $0 & 1 Free tickets.
+[Game 43]: We won: $0, and 4 Free Tickets.
+
+Ticket [8, 14, 17, 19, 24, 27, 36] won: $0 & 1 Free tickets.
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 44]: We won: $0, and 4 Free Tickets.
+
+[Game 45]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $20 & 0 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $20 & 0 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $20 & 0 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $20 & 0 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 46]: We won: $80, and 5 Free Tickets.
+
+Ticket [3, 8, 9, 25, 29, 42, 46] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+[Game 47]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [5, 6, 16, 18, 26, 38, 47] won: $0 & 1 Free tickets.
+Ticket [6, 10, 11, 25, 32, 39, 44] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 48]: We won: $0, and 11 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+[Game 49]: We won: $0, and 1 Free Tickets.
+
+[Game 50]: We won: $0, and 0 Free Tickets.
+
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 51]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 52]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 6, 9, 18, 19, 26, 44] won: $20 & 0 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 53]: We won: $20, and 2 Free Tickets.
+
+Ticket [18, 24, 28, 30, 31, 32, 48] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 54]: We won: $0, and 5 Free Tickets.
+
+Ticket [5, 13, 26, 31, 32, 35, 36] won: $0 & 1 Free tickets.
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $20 & 0 Free tickets.
+[Game 55]: We won: $20, and 2 Free Tickets.
+
+Ticket [2, 5, 7, 9, 10, 12, 35] won: $20 & 0 Free tickets.
+Ticket [7, 12, 17, 22, 24, 25, 43] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 56]: We won: $20, and 4 Free Tickets.
+
+Ticket [3, 5, 7, 22, 33, 43, 45] won: $0 & 1 Free tickets.
+[Game 57]: We won: $0, and 1 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $20 & 0 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 58]: We won: $20, and 2 Free Tickets.
+
+[Game 59]: We won: $0, and 0 Free Tickets.
+
+Ticket [7, 8, 11, 17, 21, 31, 41] won: $20 & 0 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $20 & 0 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 60]: We won: $40, and 3 Free Tickets.
+
+Ticket [3, 6, 7, 10, 14, 17, 39] won: $20 & 0 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 61]: We won: $20, and 1 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 30] won: $20 & 0 Free tickets.
+Ticket [1, 4, 7, 10, 13, 16, 32] won: $20 & 0 Free tickets.
+Ticket [1, 4, 8, 9, 11, 12, 33] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $20 & 0 Free tickets.
+[Game 62]: We won: $60, and 1 Free Tickets.
+
+Ticket [3, 6, 8, 11, 13, 16, 40] won: $0 & 1 Free tickets.
+Ticket [7, 8, 11, 24, 31, 43, 47] won: $0 & 1 Free tickets.
+Ticket [2, 11, 19, 20, 24, 27, 28] won: $0 & 1 Free tickets.
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+[Game 63]: We won: $0, and 4 Free Tickets.
+
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 64]: We won: $0, and 2 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 65]: We won: $0, and 2 Free Tickets.
+
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+[Game 66]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+[Game 67]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+[Game 68]: We won: $0, and 5 Free Tickets.
+
+[Game 69]: We won: $0, and 0 Free Tickets.
+
+Ticket [17, 18, 32, 33, 35, 43, 45] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $20 & 0 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 70]: We won: $20, and 8 Free Tickets.
+
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 71]: We won: $0, and 3 Free Tickets.
+
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $20 & 0 Free tickets.
+[Game 72]: We won: $20, and 0 Free Tickets.
+
+Ticket [9, 12, 13, 14, 16, 17, 43] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 73]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 74]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 24, 33, 36, 38, 40, 47] won: $0 & 1 Free tickets.
+[Game 75]: We won: $0, and 1 Free Tickets.
+
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 76]: We won: $0, and 2 Free Tickets.
+
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 77]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 78]: We won: $0, and 3 Free Tickets.
+
+[Game 79]: We won: $0, and 0 Free Tickets.
+
+[Game 80]: We won: $0, and 0 Free Tickets.
+
+[Game 81]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $20 & 0 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $20 & 0 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $20 & 0 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $20 & 0 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+[Game 82]: We won: $80, and 6 Free Tickets.
+
+Ticket [1, 4, 7, 10, 13, 16, 32] won: $0 & 1 Free tickets.
+Ticket [3, 6, 8, 11, 13, 16, 40] won: $0 & 1 Free tickets.
+[Game 83]: We won: $0, and 2 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 84]: We won: $0, and 3 Free Tickets.
+
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 85]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 8, 13, 18, 21, 36, 41] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 86]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+[Game 87]: We won: $0, and 5 Free Tickets.
+
+[Game 88]: We won: $0, and 0 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 89]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+[Game 90]: We won: $0, and 1 Free Tickets.
+
+Ticket [14, 15, 22, 31, 35, 38, 42] won: $0 & 1 Free tickets.
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 91]: We won: $0, and 5 Free Tickets.
+
+Ticket [19, 27, 29, 32, 36, 38, 46] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+[Game 92]: We won: $0, and 2 Free Tickets.
+
+[Game 93]: We won: $0, and 0 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 94]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 95]: We won: $0, and 3 Free Tickets.
+
+[Game 96]: We won: $0, and 0 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $20 & 0 Free tickets.
+[Game 97]: We won: $20, and 3 Free Tickets.
+
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 98]: We won: $0, and 2 Free Tickets.
+
+[Game 99]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 18, 20, 21, 31, 37, 44] won: $0 & 1 Free tickets.
+Ticket [5, 6, 16, 26, 36, 38, 47] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 100]: We won: $0, and 3 Free Tickets.
+
+Ticket [10, 12, 18, 22, 23, 42, 47] won: $0 & 1 Free tickets.
+[Game 101]: We won: $0, and 1 Free Tickets.
+
+[Game 102]: We won: $0, and 0 Free Tickets.
+
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $20 & 0 Free tickets.
+[Game 103]: We won: $20, and 1 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 30] won: $0 & 1 Free tickets.
+Ticket [2, 5, 8, 11, 14, 17, 36] won: $0 & 1 Free tickets.
+Ticket [2, 6, 8, 10, 13, 15, 38] won: $20 & 0 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 104]: We won: $20, and 4 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 105]: We won: $0, and 3 Free Tickets.
+
+Ticket [8, 10, 21, 23, 24, 33, 36] won: $20 & 0 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+[Game 106]: We won: $20, and 1 Free Tickets.
+
+Ticket [1, 3, 7, 9, 12, 14, 31] won: $0 & 1 Free tickets.
+Ticket [1, 4, 8, 9, 11, 12, 33] won: $0 & 1 Free tickets.
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 107]: We won: $0, and 5 Free Tickets.
+
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 108]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $20 & 0 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 109]: We won: $20, and 2 Free Tickets.
+
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 110]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+[Game 111]: We won: $0, and 6 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 112]: We won: $0, and 5 Free Tickets.
+
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 113]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+[Game 114]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 6, 11, 15, 18, 25, 45] won: $0 & 1 Free tickets.
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 115]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 3, 7, 24, 27, 32, 38] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 116]: We won: $0, and 5 Free Tickets.
+
+Ticket [2, 7, 8, 18, 30, 31, 42] won: $0 & 1 Free tickets.
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+[Game 117]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [4, 26, 29, 37, 39, 42, 43] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 118]: We won: $0, and 7 Free Tickets.
+
+Ticket [6, 9, 14, 18, 24, 27, 38] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [1, 4, 5, 16, 20, 29, 33] won: $0 & 1 Free tickets.
+[Game 119]: We won: $0, and 3 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+[Game 120]: We won: $0, and 1 Free Tickets.
+
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 121]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+[Game 122]: We won: $0, and 5 Free Tickets.
+
+Ticket [9, 10, 18, 35, 39, 46, 48] won: $0 & 1 Free tickets.
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 123]: We won: $0, and 4 Free Tickets.
+
+Ticket [1, 2, 9, 15, 25, 37, 45] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 124]: We won: $0, and 5 Free Tickets.
+
+Ticket [12, 15, 23, 24, 29, 30, 41] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 125]: We won: $0, and 2 Free Tickets.
+
+[Game 126]: We won: $0, and 0 Free Tickets.
+
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 127]: We won: $0, and 1 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 128]: We won: $0, and 3 Free Tickets.
+
+Ticket [9, 16, 27, 29, 30, 32, 39] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+Ticket [3, 10, 15, 16, 31, 36, 41] won: $0 & 1 Free tickets.
+[Game 129]: We won: $0, and 3 Free Tickets.
+
+[Game 130]: We won: $0, and 0 Free Tickets.
+
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 131]: We won: $0, and 1 Free Tickets.
+
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 132]: We won: $0, and 1 Free Tickets.
+
+Ticket [4, 5, 12, 21, 33, 37, 44] won: $20 & 0 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+[Game 133]: We won: $20, and 1 Free Tickets.
+
+Ticket [3, 6, 9, 12, 15, 18, 41] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 134]: We won: $0, and 2 Free Tickets.
+
+[Game 135]: We won: $0, and 0 Free Tickets.
+
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 136]: We won: $0, and 2 Free Tickets.
+
+Ticket [4, 16, 28, 33, 37, 45, 47] won: $20 & 0 Free tickets.
+Ticket [11, 16, 18, 29, 33, 38, 43] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 137]: We won: $20, and 3 Free Tickets.
+
+Ticket [1, 4, 8, 9, 11, 12, 33] won: $0 & 1 Free tickets.
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 138]: We won: $0, and 4 Free Tickets.
+
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+[Game 139]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $20 & 0 Free tickets.
+[Game 140]: We won: $20, and 0 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 141]: We won: $0, and 2 Free Tickets.
+
+[Game 142]: We won: $0, and 0 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 143]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 10, 11, 20, 22, 29, 32] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 144]: We won: $0, and 2 Free Tickets.
+
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 145]: We won: $0, and 1 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 146]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 147]: We won: $0, and 4 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 148]: We won: $0, and 4 Free Tickets.
+
+[Game 149]: We won: $0, and 0 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+[Game 150]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 151]: We won: $0, and 4 Free Tickets.
+
+Ticket [2, 11, 24, 27, 30, 40, 42] won: $0 & 1 Free tickets.
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 152]: We won: $0, and 3 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 153]: We won: $0, and 2 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+[Game 154]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+[Game 155]: We won: $0, and 2 Free Tickets.
+
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 156]: We won: $0, and 2 Free Tickets.
+
+[Game 157]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+[Game 158]: We won: $0, and 7 Free Tickets.
+
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $20 & 0 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 159]: We won: $20, and 1 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 160]: We won: $0, and 1 Free Tickets.
+
+[Game 161]: We won: $0, and 0 Free Tickets.
+
+Ticket [3, 5, 14, 16, 28, 38, 39] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 162]: We won: $0, and 4 Free Tickets.
+
+[Game 163]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+[Game 164]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 165]: We won: $0, and 1 Free Tickets.
+
+[Game 166]: We won: $0, and 0 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+[Game 167]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $20 & 0 Free tickets.
+[Game 168]: We won: $20, and 0 Free Tickets.
+
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 169]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 170]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 171]: We won: $0, and 3 Free Tickets.
+
+Ticket [16, 21, 24, 35, 46, 47, 48] won: $0 & 1 Free tickets.
+[Game 172]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 173]: We won: $0, and 1 Free Tickets.
+
+Ticket [12, 16, 25, 40, 41, 43, 46] won: $0 & 1 Free tickets.
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 174]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+[Game 175]: We won: $0, and 5 Free Tickets.
+
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 176]: We won: $0, and 4 Free Tickets.
+
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $20 & 0 Free tickets.
+[Game 177]: We won: $20, and 0 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 178]: We won: $0, and 2 Free Tickets.
+
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 179]: We won: $0, and 2 Free Tickets.
+
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 180]: We won: $0, and 1 Free Tickets.
+
+Ticket [10, 17, 21, 22, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 181]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 182]: We won: $0, and 2 Free Tickets.
+
+[Game 183]: We won: $0, and 0 Free Tickets.
+
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+[Game 184]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $20 & 0 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 185]: We won: $20, and 1 Free Tickets.
+
+Ticket [3, 6, 8, 11, 13, 16, 40] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 186]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [7, 9, 28, 33, 35, 36, 39] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 187]: We won: $0, and 7 Free Tickets.
+
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 188]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 3, 24, 26, 33, 41, 43] won: $0 & 1 Free tickets.
+[Game 189]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $20 & 0 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 190]: We won: $20, and 1 Free Tickets.
+
+Ticket [2, 6, 8, 10, 13, 15, 38] won: $0 & 1 Free tickets.
+Ticket [7, 8, 10, 11, 15, 18, 42] won: $0 & 1 Free tickets.
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+[Game 191]: We won: $0, and 3 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $20 & 0 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 192]: We won: $20, and 2 Free Tickets.
+
+Ticket [6, 14, 21, 23, 26, 29, 39] won: $0 & 1 Free tickets.
+[Game 193]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 194]: We won: $0, and 1 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 195]: We won: $0, and 2 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $20 & 0 Free tickets.
+[Game 196]: We won: $20, and 0 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 197]: We won: $0, and 2 Free Tickets.
+
+[Game 198]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+[Game 199]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+[Game 200]: We won: $0, and 2 Free Tickets.
+
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 201]: We won: $0, and 1 Free Tickets.
+
+[Game 202]: We won: $0, and 0 Free Tickets.
+
+Ticket [3, 17, 22, 23, 24, 36, 40] won: $0 & 1 Free tickets.
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 203]: We won: $0, and 4 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+[Game 204]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 205]: We won: $0, and 2 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $20 & 0 Free tickets.
+[Game 206]: We won: $20, and 0 Free Tickets.
+
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $20 & 0 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 207]: We won: $20, and 2 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 208]: We won: $0, and 2 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $20 & 0 Free tickets.
+[Game 209]: We won: $20, and 0 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 30] won: $20 & 0 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $20 & 0 Free tickets.
+[Game 210]: We won: $40, and 0 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 211]: We won: $0, and 2 Free Tickets.
+
+Ticket [8, 14, 20, 21, 25, 31, 45] won: $0 & 1 Free tickets.
+Ticket [7, 9, 25, 39, 41, 44, 46] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $20 & 0 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 212]: We won: $20, and 6 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 30] won: $20 & 0 Free tickets.
+Ticket [2, 6, 8, 10, 13, 15, 38] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 213]: We won: $20, and 2 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 30] won: $0 & 1 Free tickets.
+Ticket [3, 6, 8, 11, 13, 16, 40] won: $0 & 1 Free tickets.
+[Game 214]: We won: $0, and 2 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $20 & 0 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 215]: We won: $20, and 1 Free Tickets.
+
+Ticket [1, 4, 8, 9, 11, 12, 33] won: $0 & 1 Free tickets.
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 216]: We won: $0, and 5 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+[Game 217]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 218]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 219]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 16, 19, 22, 24, 31, 43] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 220]: We won: $0, and 5 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $20 & 0 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 221]: We won: $20, and 4 Free Tickets.
+
+Ticket [4, 18, 21, 22, 35, 39, 41] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 222]: We won: $0, and 2 Free Tickets.
+
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 223]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $20 & 0 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 224]: We won: $20, and 2 Free Tickets.
+
+[Game 225]: We won: $0, and 0 Free Tickets.
+
+[Game 226]: We won: $0, and 0 Free Tickets.
+
+[Game 227]: We won: $0, and 0 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 228]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 229]: We won: $0, and 3 Free Tickets.
+
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 230]: We won: $0, and 2 Free Tickets.
+
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 231]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 232]: We won: $0, and 2 Free Tickets.
+
+[Game 233]: We won: $0, and 0 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 234]: We won: $0, and 3 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 235]: We won: $0, and 4 Free Tickets.
+
+Ticket [19, 20, 26, 30, 35, 38, 43] won: $0 & 1 Free tickets.
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+[Game 236]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $20 & 0 Free tickets.
+[Game 237]: We won: $20, and 2 Free Tickets.
+
+Ticket [2, 5, 7, 9, 10, 12, 35] won: $0 & 1 Free tickets.
+Ticket [2, 5, 8, 11, 14, 17, 36] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 238]: We won: $0, and 5 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [3, 10, 15, 16, 31, 36, 41] won: $0 & 1 Free tickets.
+[Game 239]: We won: $0, and 9 Free Tickets.
+
+Ticket [10, 20, 22, 36, 39, 42, 44] won: $0 & 1 Free tickets.
+[Game 240]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+[Game 241]: We won: $0, and 1 Free Tickets.
+
+[Game 242]: We won: $0, and 0 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 243]: We won: $0, and 3 Free Tickets.
+
+Ticket [20, 27, 29, 32, 39, 43, 46] won: $0 & 1 Free tickets.
+[Game 244]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 2, 13, 24, 32, 44, 46] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+[Game 245]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 246]: We won: $0, and 4 Free Tickets.
+
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 247]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 248]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 249]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $20 & 0 Free tickets.
+[Game 250]: We won: $20, and 1 Free Tickets.
+
+Ticket [1, 4, 8, 9, 11, 12, 33] won: $0 & 1 Free tickets.
+Ticket [2, 5, 8, 11, 14, 17, 36] won: $0 & 1 Free tickets.
+Ticket [2, 6, 8, 10, 13, 15, 38] won: $0 & 1 Free tickets.
+Ticket [3, 6, 8, 11, 13, 16, 40] won: $0 & 1 Free tickets.
+Ticket [7, 8, 10, 11, 15, 18, 42] won: $0 & 1 Free tickets.
+[Game 251]: We won: $0, and 5 Free Tickets.
+
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 252]: We won: $0, and 3 Free Tickets.
+
+Ticket [4, 15, 17, 19, 34, 44, 45] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 253]: We won: $0, and 3 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 254]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 255]: We won: $0, and 3 Free Tickets.
+
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 256]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $20 & 0 Free tickets.
+[Game 257]: We won: $20, and 1 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 258]: We won: $0, and 3 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+[Game 259]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 260]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 261]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 262]: We won: $0, and 6 Free Tickets.
+
+Ticket [4, 7, 20, 25, 28, 33, 43] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 263]: We won: $0, and 3 Free Tickets.
+
+[Game 264]: We won: $0, and 0 Free Tickets.
+
+[Game 265]: We won: $0, and 0 Free Tickets.
+
+Ticket [12, 19, 23, 24, 30, 42, 44] won: $0 & 1 Free tickets.
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+[Game 266]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 7, 18, 21, 29, 30, 35] won: $0 & 1 Free tickets.
+[Game 267]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 9, 13, 24, 26, 35, 46] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 268]: We won: $0, and 5 Free Tickets.
+
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 269]: We won: $0, and 2 Free Tickets.
+
+Ticket [10, 17, 19, 23, 34, 41, 45] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 270]: We won: $0, and 2 Free Tickets.
+
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+[Game 271]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+[Game 272]: We won: $0, and 1 Free Tickets.
+
+Ticket [8, 9, 27, 29, 31, 34, 46] won: $0 & 1 Free tickets.
+[Game 273]: We won: $0, and 1 Free Tickets.
+
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 274]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+[Game 275]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+[Game 276]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $20 & 0 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 277]: We won: $20, and 1 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $20 & 0 Free tickets.
+[Game 278]: We won: $20, and 3 Free Tickets.
+
+Ticket [3, 6, 7, 10, 14, 17, 39] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $20 & 0 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 279]: We won: $20, and 4 Free Tickets.
+
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 280]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 13, 18, 23, 32, 40, 41] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 281]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 282]: We won: $0, and 2 Free Tickets.
+
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 283]: We won: $0, and 1 Free Tickets.
+
+Ticket [16, 17, 21, 25, 26, 45, 46] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 284]: We won: $0, and 3 Free Tickets.
+
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $20 & 0 Free tickets.
+[Game 285]: We won: $20, and 1 Free Tickets.
+
+Ticket [7, 10, 20, 25, 29, 31, 34] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 286]: We won: $0, and 2 Free Tickets.
+
+Ticket [19, 20, 27, 31, 38, 40, 44] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 287]: We won: $0, and 5 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+[Game 288]: We won: $0, and 5 Free Tickets.
+
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $20 & 0 Free tickets.
+[Game 289]: We won: $20, and 0 Free Tickets.
+
+Ticket [9, 21, 26, 34, 37, 41, 47] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 290]: We won: $0, and 3 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 291]: We won: $0, and 3 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 292]: We won: $0, and 2 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+[Game 293]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 294]: We won: $0, and 1 Free Tickets.
+
+Ticket [2, 12, 26, 33, 36, 38, 40] won: $0 & 1 Free tickets.
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+[Game 295]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 11, 12, 16, 19, 22, 38] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 296]: We won: $0, and 7 Free Tickets.
+
+Ticket [9, 12, 15, 17, 27, 40, 41] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 297]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+[Game 298]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+[Game 299]: We won: $0, and 5 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+Ticket [3, 10, 15, 16, 31, 36, 41] won: $0 & 1 Free tickets.
+[Game 300]: We won: $0, and 3 Free Tickets.
+
+Ticket [6, 10, 14, 18, 30, 36, 40] won: $0 & 1 Free tickets.
+[Game 301]: We won: $0, and 1 Free Tickets.
+
+[Game 302]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 303]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [5, 26, 30, 31, 37, 38, 39] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $20 & 0 Free tickets.
+[Game 304]: We won: $20, and 7 Free Tickets.
+
+Ticket [1, 4, 5, 16, 20, 29, 33] won: $0 & 1 Free tickets.
+[Game 305]: We won: $0, and 1 Free Tickets.
+
+[Game 306]: We won: $0, and 0 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $20 & 0 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 307]: We won: $20, and 1 Free Tickets.
+
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 308]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $20 & 0 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $20 & 0 Free tickets.
+[Game 309]: We won: $40, and 4 Free Tickets.
+
+[Game 310]: We won: $0, and 0 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 311]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+[Game 312]: We won: $0, and 8 Free Tickets.
+
+Ticket [2, 5, 24, 26, 31, 33, 36] won: $0 & 1 Free tickets.
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $20 & 0 Free tickets.
+[Game 313]: We won: $20, and 6 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+[Game 314]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $20 & 0 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 315]: We won: $20, and 3 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+[Game 316]: We won: $0, and 3 Free Tickets.
+
+Ticket [5, 7, 10, 13, 29, 31, 45] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $20 & 0 Free tickets.
+[Game 317]: We won: $20, and 3 Free Tickets.
+
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $20 & 0 Free tickets.
+[Game 318]: We won: $20, and 0 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+[Game 319]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $20 & 0 Free tickets.
+[Game 320]: We won: $20, and 0 Free Tickets.
+
+Ticket [2, 5, 8, 11, 14, 17, 36] won: $20 & 0 Free tickets.
+Ticket [2, 5, 13, 15, 16, 18, 37] won: $0 & 1 Free tickets.
+Ticket [3, 6, 8, 11, 13, 16, 40] won: $0 & 1 Free tickets.
+[Game 321]: We won: $20, and 2 Free Tickets.
+
+Ticket [2, 5, 7, 9, 10, 12, 35] won: $0 & 1 Free tickets.
+[Game 322]: We won: $0, and 1 Free Tickets.
+
+[Game 323]: We won: $0, and 0 Free Tickets.
+
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 324]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 325]: We won: $0, and 4 Free Tickets.
+
+Ticket [8, 10, 21, 27, 36, 45, 46] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 326]: We won: $0, and 2 Free Tickets.
+
+Ticket [9, 35, 37, 38, 40, 43, 48] won: $0 & 1 Free tickets.
+Ticket [8, 17, 31, 35, 37, 39, 41] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $20 & 0 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 327]: We won: $20, and 5 Free Tickets.
+
+Ticket [6, 8, 18, 28, 31, 32, 37] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+[Game 328]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 20, 26, 34, 35, 36, 40] won: $0 & 1 Free tickets.
+[Game 329]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 330]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 331]: We won: $0, and 3 Free Tickets.
+
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 332]: We won: $0, and 1 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+[Game 333]: We won: $0, and 1 Free Tickets.
+
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 334]: We won: $0, and 2 Free Tickets.
+
+Ticket [16, 36, 37, 40, 42, 43, 44] won: $0 & 1 Free tickets.
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 335]: We won: $0, and 3 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 336]: We won: $0, and 1 Free Tickets.
+
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 337]: We won: $0, and 1 Free Tickets.
+
+Ticket [2, 9, 10, 16, 30, 39, 43] won: $0 & 1 Free tickets.
+Ticket [12, 27, 32, 33, 36, 37, 46] won: $0 & 1 Free tickets.
+[Game 338]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [4, 8, 11, 16, 18, 29, 45] won: $0 & 1 Free tickets.
+[Game 339]: We won: $0, and 6 Free Tickets.
+
+Ticket [2, 10, 16, 19, 36, 39, 47] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $20 & 0 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 340]: We won: $20, and 4 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 30] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $20 & 0 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 341]: We won: $20, and 3 Free Tickets.
+
+Ticket [2, 5, 8, 11, 14, 17, 36] won: $0 & 1 Free tickets.
+Ticket [9, 12, 13, 14, 16, 17, 43] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 342]: We won: $0, and 4 Free Tickets.
+
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $20 & 0 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 343]: We won: $20, and 1 Free Tickets.
+
+Ticket [9, 12, 13, 14, 16, 17, 43] won: $20 & 0 Free tickets.
+[Game 344]: We won: $20, and 0 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 30] won: $0 & 1 Free tickets.
+Ticket [2, 6, 8, 10, 13, 15, 38] won: $0 & 1 Free tickets.
+Ticket [3, 6, 8, 11, 13, 16, 40] won: $0 & 1 Free tickets.
+[Game 345]: We won: $0, and 3 Free Tickets.
+
+Ticket [12, 19, 23, 30, 31, 32, 44] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $20 & 0 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 346]: We won: $20, and 4 Free Tickets.
+
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $20 & 0 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 347]: We won: $20, and 1 Free Tickets.
+
+Ticket [1, 4, 8, 9, 11, 12, 33] won: $0 & 1 Free tickets.
+Ticket [3, 6, 7, 10, 14, 17, 39] won: $0 & 1 Free tickets.
+Ticket [10, 11, 13, 15, 17, 18, 44] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 348]: We won: $0, and 4 Free Tickets.
+
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [1, 8, 12, 15, 34, 38, 45] won: $0 & 1 Free tickets.
+[Game 349]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $20 & 0 Free tickets.
+[Game 350]: We won: $20, and 0 Free Tickets.
+
+Ticket [2, 6, 8, 10, 13, 15, 38] won: $0 & 1 Free tickets.
+Ticket [3, 6, 8, 11, 13, 16, 40] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $20 & 0 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+[Game 351]: We won: $20, and 3 Free Tickets.
+
+Ticket [1, 4, 14, 15, 17, 18, 34] won: $0 & 1 Free tickets.
+Ticket [9, 12, 13, 14, 16, 17, 43] won: $0 & 1 Free tickets.
+[Game 352]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $20 & 0 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 353]: We won: $20, and 2 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 354]: We won: $0, and 4 Free Tickets.
+
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 355]: We won: $0, and 2 Free Tickets.
+
+Ticket [5, 8, 10, 17, 18, 26, 39] won: $0 & 1 Free tickets.
+[Game 356]: We won: $0, and 1 Free Tickets.
+
+Ticket [8, 11, 12, 13, 15, 21, 33] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 357]: We won: $0, and 3 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 358]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+[Game 359]: We won: $0, and 1 Free Tickets.
+
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $20 & 0 Free tickets.
+[Game 360]: We won: $20, and 0 Free Tickets.
+
+Ticket [1, 3, 7, 9, 12, 14, 31] won: $0 & 1 Free tickets.
+Ticket [3, 6, 7, 10, 14, 17, 39] won: $0 & 1 Free tickets.
+Ticket [9, 14, 16, 21, 23, 32, 44] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+[Game 361]: We won: $0, and 5 Free Tickets.
+
+[Game 362]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+[Game 363]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $20 & 0 Free tickets.
+[Game 364]: We won: $20, and 2 Free Tickets.
+
+Ticket [2, 5, 8, 11, 14, 17, 36] won: $0 & 1 Free tickets.
+[Game 365]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 366]: We won: $0, and 1 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 367]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 368]: We won: $0, and 1 Free Tickets.
+
+[Game 369]: We won: $0, and 0 Free Tickets.
+
+[Game 370]: We won: $0, and 0 Free Tickets.
+
+[Game 371]: We won: $0, and 0 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+[Game 372]: We won: $0, and 2 Free Tickets.
+
+Ticket [10, 15, 24, 32, 33, 35, 43] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 373]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+[Game 374]: We won: $0, and 6 Free Tickets.
+
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $20 & 0 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+Ticket [2, 12, 16, 21, 26, 32, 45] won: $0 & 1 Free tickets.
+[Game 375]: We won: $20, and 5 Free Tickets.
+
+Ticket [1, 4, 8, 9, 11, 12, 33] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 376]: We won: $0, and 4 Free Tickets.
+
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 377]: We won: $0, and 1 Free Tickets.
+
+Ticket [15, 17, 21, 23, 30, 36, 45] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 378]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [7, 18, 28, 33, 34, 37, 45] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 379]: We won: $0, and 9 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [3, 10, 15, 16, 31, 36, 41] won: $0 & 1 Free tickets.
+[Game 380]: We won: $0, and 4 Free Tickets.
+
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $20 & 0 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 381]: We won: $20, and 1 Free Tickets.
+
+[Game 382]: We won: $0, and 0 Free Tickets.
+
+Ticket [13, 17, 32, 35, 38, 46, 47] won: $20 & 0 Free tickets.
+[Game 383]: We won: $20, and 0 Free Tickets.
+
+Ticket [1, 4, 7, 10, 13, 16, 32] won: $0 & 1 Free tickets.
+Ticket [2, 5, 8, 11, 14, 17, 36] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $20 & 0 Free tickets.
+[Game 384]: We won: $20, and 2 Free Tickets.
+
+[Game 385]: We won: $0, and 0 Free Tickets.
+
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 386]: We won: $0, and 1 Free Tickets.
+
+Ticket [9, 10, 18, 21, 27, 40, 45] won: $0 & 1 Free tickets.
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+[Game 387]: We won: $0, and 2 Free Tickets.
+
+[Game 388]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+[Game 389]: We won: $0, and 5 Free Tickets.
+
+Ticket [3, 18, 25, 30, 34, 35, 39] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $20 & 0 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 390]: We won: $20, and 4 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 30] won: $0 & 1 Free tickets.
+Ticket [2, 5, 13, 15, 16, 18, 37] won: $20 & 0 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 391]: We won: $20, and 5 Free Tickets.
+
+Ticket [1, 4, 7, 10, 13, 16, 32] won: $0 & 1 Free tickets.
+Ticket [2, 5, 7, 9, 10, 12, 35] won: $0 & 1 Free tickets.
+[Game 392]: We won: $0, and 2 Free Tickets.
+
+[Game 393]: We won: $0, and 0 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $20 & 0 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 394]: We won: $20, and 1 Free Tickets.
+
+Ticket [3, 6, 7, 10, 14, 17, 39] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 395]: We won: $0, and 3 Free Tickets.
+
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+[Game 396]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [5, 6, 18, 22, 29, 36, 37] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 397]: We won: $0, and 7 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $20 & 0 Free tickets.
+Ticket [2, 12, 16, 21, 26, 32, 45] won: $0 & 1 Free tickets.
+[Game 398]: We won: $20, and 2 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $20 & 0 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $20 & 0 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 399]: We won: $40, and 3 Free Tickets.
+
+Ticket [9, 12, 13, 14, 16, 17, 43] won: $0 & 1 Free tickets.
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+[Game 400]: We won: $0, and 2 Free Tickets.
+
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 401]: We won: $0, and 3 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+[Game 402]: We won: $0, and 1 Free Tickets.
+
+Ticket [11, 19, 27, 30, 31, 34, 48] won: $0 & 1 Free tickets.
+[Game 403]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 404]: We won: $0, and 3 Free Tickets.
+
+Ticket [2, 7, 11, 12, 14, 27, 47] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 405]: We won: $0, and 3 Free Tickets.
+
+Ticket [21, 23, 26, 30, 40, 44, 47] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 406]: We won: $0, and 2 Free Tickets.
+
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 407]: We won: $0, and 2 Free Tickets.
+
+Ticket [10, 12, 25, 30, 41, 43, 44] won: $20 & 0 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 408]: We won: $20, and 1 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+[Game 409]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+[Game 410]: We won: $0, and 1 Free Tickets.
+
+Ticket [13, 15, 17, 18, 36, 41, 47] won: $0 & 1 Free tickets.
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+[Game 411]: We won: $0, and 2 Free Tickets.
+
+Ticket [2, 14, 15, 22, 24, 26, 32] won: $0 & 1 Free tickets.
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+[Game 412]: We won: $0, and 3 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [3, 10, 15, 16, 31, 36, 41] won: $0 & 1 Free tickets.
+[Game 413]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+[Game 414]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $20 & 0 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 415]: We won: $20, and 3 Free Tickets.
+
+Ticket [1, 4, 14, 15, 17, 18, 34] won: $20 & 0 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 416]: We won: $20, and 3 Free Tickets.
+
+Ticket [2, 5, 8, 11, 14, 17, 36] won: $0 & 1 Free tickets.
+[Game 417]: We won: $0, and 1 Free Tickets.
+
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 418]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+[Game 419]: We won: $0, and 2 Free Tickets.
+
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 420]: We won: $0, and 2 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+[Game 421]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 10, 12, 32, 36, 41, 44] won: $0 & 1 Free tickets.
+Ticket [3, 4, 8, 18, 34, 38, 44] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 422]: We won: $0, and 4 Free Tickets.
+
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 423]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 4, 18, 20, 26, 30, 42] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $6145 & 0 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 424]: We won: $6145, and 2 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 30] won: $0 & 1 Free tickets.
+Ticket [1, 4, 8, 9, 11, 12, 33] won: $0 & 1 Free tickets.
+Ticket [1, 4, 14, 15, 17, 18, 34] won: $0 & 1 Free tickets.
+Ticket [4, 10, 20, 21, 34, 45, 48] won: $0 & 1 Free tickets.
+Ticket [2, 12, 26, 36, 39, 47, 48] won: $0 & 1 Free tickets.
+Ticket [1, 20, 22, 32, 34, 37, 39] won: $0 & 1 Free tickets.
+Ticket [1, 2, 11, 28, 32, 34, 40] won: $0 & 1 Free tickets.
+Ticket [4, 13, 15, 18, 34, 36, 43] won: $0 & 1 Free tickets.
+Ticket [1, 4, 12, 25, 29, 33, 48] won: $0 & 1 Free tickets.
+Ticket [15, 20, 24, 34, 36, 42, 48] won: $0 & 1 Free tickets.
+Ticket [12, 14, 20, 22, 34, 39, 43] won: $0 & 1 Free tickets.
+Ticket [4, 8, 12, 17, 18, 21, 36] won: $0 & 1 Free tickets.
+Ticket [2, 3, 8, 12, 15, 20, 41] won: $0 & 1 Free tickets.
+Ticket [12, 17, 20, 26, 28, 33, 34] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 17, 20, 34, 44] won: $20 & 0 Free tickets.
+Ticket [1, 9, 22, 27, 34, 36, 48] won: $0 & 1 Free tickets.
+Ticket [2, 4, 18, 20, 36, 38, 41] won: $20 & 0 Free tickets.
+Ticket [1, 12, 19, 20, 24, 37, 41] won: $0 & 1 Free tickets.
+Ticket [8, 12, 18, 20, 29, 30, 36] won: $0 & 1 Free tickets.
+Ticket [4, 12, 15, 24, 34, 37, 47] won: $0 & 1 Free tickets.
+Ticket [1, 4, 8, 20, 31, 35, 40] won: $0 & 1 Free tickets.
+Ticket [4, 6, 17, 20, 25, 36, 43] won: $0 & 1 Free tickets.
+Ticket [2, 4, 7, 12, 20, 24, 35] won: $20 & 0 Free tickets.
+Ticket [1, 12, 15, 22, 33, 34, 39] won: $0 & 1 Free tickets.
+Ticket [2, 4, 9, 12, 34, 39, 47] won: $20 & 0 Free tickets.
+Ticket [1, 2, 10, 33, 34, 42, 45] won: $0 & 1 Free tickets.
+Ticket [8, 12, 13, 30, 34, 36, 47] won: $0 & 1 Free tickets.
+Ticket [12, 15, 19, 20, 34, 45, 46] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 8, 17, 21, 25] won: $0 & 1 Free tickets.
+Ticket [12, 13, 28, 34, 36, 38, 45] won: $0 & 1 Free tickets.
+Ticket [1, 4, 22, 27, 28, 36, 38] won: $0 & 1 Free tickets.
+Ticket [2, 20, 26, 34, 36, 42, 43] won: $20 & 0 Free tickets.
+Ticket [4, 5, 10, 12, 18, 36, 46] won: $0 & 1 Free tickets.
+Ticket [1, 20, 30, 34, 35, 39, 47] won: $0 & 1 Free tickets.
+Ticket [1, 4, 12, 20, 21, 29, 30] won: $20 & 0 Free tickets.
+Ticket [1, 12, 15, 20, 29, 31, 39] won: $0 & 1 Free tickets.
+Ticket [2, 18, 26, 34, 36, 37, 47] won: $0 & 1 Free tickets.
+Ticket [7, 12, 20, 32, 33, 36, 44] won: $0 & 1 Free tickets.
+Ticket [11, 12, 20, 22, 29, 34, 36] won: $20 & 0 Free tickets.
+Ticket [1, 12, 20, 21, 32, 37, 47] won: $0 & 1 Free tickets.
+Ticket [1, 4, 5, 20, 21, 24, 34] won: $20 & 0 Free tickets.
+Ticket [2, 9, 12, 14, 27, 36, 41] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 10, 26, 38] won: $0 & 1 Free tickets.
+Ticket [1, 2, 12, 15, 17, 18, 35] won: $0 & 1 Free tickets.
+Ticket [1, 4, 24, 29, 34, 41, 44] won: $0 & 1 Free tickets.
+Ticket [2, 18, 19, 20, 28, 36, 48] won: $0 & 1 Free tickets.
+Ticket [12, 13, 20, 34, 40, 43, 47] won: $0 & 1 Free tickets.
+Ticket [2, 20, 34, 35, 37, 44, 45] won: $0 & 1 Free tickets.
+Ticket [10, 20, 24, 28, 32, 34, 36] won: $0 & 1 Free tickets.
+Ticket [1, 4, 12, 22, 31, 37, 45] won: $0 & 1 Free tickets.
+Ticket [3, 4, 32, 34, 36, 38, 39] won: $0 & 1 Free tickets.
+Ticket [1, 20, 31, 35, 36, 40, 47] won: $0 & 1 Free tickets.
+Ticket [1, 4, 12, 28, 29, 33, 35] won: $0 & 1 Free tickets.
+Ticket [2, 20, 26, 29, 33, 36, 48] won: $0 & 1 Free tickets.
+Ticket [1, 6, 8, 12, 27, 36, 40] won: $0 & 1 Free tickets.
+Ticket [2, 17, 20, 27, 32, 36, 42] won: $0 & 1 Free tickets.
+Ticket [1, 11, 31, 34, 36, 37, 40] won: $0 & 1 Free tickets.
+Ticket [2, 4, 9, 11, 24, 26, 36] won: $0 & 1 Free tickets.
+Ticket [3, 11, 12, 20, 22, 34, 37] won: $0 & 1 Free tickets.
+Ticket [2, 12, 14, 23, 30, 35, 36] won: $0 & 1 Free tickets.
+Ticket [2, 7, 15, 20, 31, 36, 37] won: $0 & 1 Free tickets.
+Ticket [1, 2, 9, 10, 20, 42, 48] won: $0 & 1 Free tickets.
+Ticket [4, 7, 8, 20, 21, 33, 36] won: $0 & 1 Free tickets.
+Ticket [2, 4, 11, 20, 25, 27, 43] won: $0 & 1 Free tickets.
+Ticket [1, 4, 21, 26, 36, 39, 48] won: $0 & 1 Free tickets.
+Ticket [1, 3, 7, 12, 25, 26, 34] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 20, 26, 30, 40] won: $0 & 1 Free tickets.
+Ticket [1, 10, 12, 31, 34, 36, 45] won: $20 & 0 Free tickets.
+Ticket [2, 4, 5, 8, 22, 35, 36] won: $0 & 1 Free tickets.
+Ticket [1, 13, 15, 18, 21, 34, 36] won: $0 & 1 Free tickets.
+Ticket [4, 16, 20, 21, 34, 37, 45] won: $0 & 1 Free tickets.
+Ticket [2, 7, 12, 13, 34, 36, 37] won: $20 & 0 Free tickets.
+Ticket [1, 4, 20, 27, 33, 35, 41] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 12, 20, 38, 47] won: $20 & 0 Free tickets.
+Ticket [1, 2, 20, 28, 31, 36, 40] won: $20 & 0 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 425]: We won: $240, and 65 Free Tickets.
+
+Ticket [2, 6, 8, 10, 13, 15, 38] won: $0 & 1 Free tickets.
+Ticket [3, 6, 8, 11, 13, 16, 40] won: $0 & 1 Free tickets.
+Ticket [5, 9, 21, 22, 25, 27, 43] won: $0 & 1 Free tickets.
+Ticket [10, 11, 13, 20, 26, 35, 43] won: $0 & 1 Free tickets.
+Ticket [6, 21, 25, 33, 37, 43, 48] won: $0 & 1 Free tickets.
+Ticket [3, 6, 10, 23, 30, 43, 48] won: $0 & 1 Free tickets.
+Ticket [6, 10, 16, 26, 28, 43, 48] won: $0 & 1 Free tickets.
+[Game 426]: We won: $0, and 7 Free Tickets.
+
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 427]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $20 & 0 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $20 & 0 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $20 & 0 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $20 & 0 Free tickets.
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $20 & 0 Free tickets.
+[Game 428]: We won: $100, and 5 Free Tickets.
+
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 429]: We won: $0, and 3 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 430]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+[Game 431]: We won: $0, and 7 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+[Game 432]: We won: $0, and 1 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 433]: We won: $0, and 4 Free Tickets.
+
+[Game 434]: We won: $0, and 0 Free Tickets.
+
+[Game 435]: We won: $0, and 0 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+[Game 436]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 437]: We won: $0, and 3 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 438]: We won: $0, and 4 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 439]: We won: $0, and 1 Free Tickets.
+
+[Game 440]: We won: $0, and 0 Free Tickets.
+
+[Game 441]: We won: $0, and 0 Free Tickets.
+
+[Game 442]: We won: $0, and 0 Free Tickets.
+
+[Game 443]: We won: $0, and 0 Free Tickets.
+
+Ticket [10, 16, 24, 30, 32, 36, 45] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 444]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+[Game 445]: We won: $0, and 5 Free Tickets.
+
+[Game 446]: We won: $0, and 0 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $20 & 0 Free tickets.
+[Game 447]: We won: $20, and 0 Free Tickets.
+
+Ticket [3, 6, 19, 26, 29, 32, 37] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 448]: We won: $0, and 5 Free Tickets.
+
+Ticket [3, 6, 9, 16, 30, 43, 47] won: $20 & 0 Free tickets.
+[Game 449]: We won: $20, and 0 Free Tickets.
+
+Ticket [3, 6, 7, 10, 14, 17, 39] won: $0 & 1 Free tickets.
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+[Game 450]: We won: $0, and 2 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+[Game 451]: We won: $0, and 1 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 452]: We won: $0, and 3 Free Tickets.
+
+[Game 453]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 5, 11, 16, 28, 32, 44] won: $0 & 1 Free tickets.
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 454]: We won: $0, and 5 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $20 & 0 Free tickets.
+[Game 455]: We won: $20, and 4 Free Tickets.
+
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 456]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 457]: We won: $0, and 2 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 458]: We won: $0, and 3 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $20 & 0 Free tickets.
+[Game 459]: We won: $20, and 1 Free Tickets.
+
+Ticket [1, 4, 7, 10, 13, 16, 32] won: $0 & 1 Free tickets.
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 460]: We won: $0, and 3 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 461]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 462]: We won: $0, and 6 Free Tickets.
+
+[Game 463]: We won: $0, and 0 Free Tickets.
+
+[Game 464]: We won: $0, and 0 Free Tickets.
+
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 465]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 12, 14, 18, 27, 35, 42] won: $0 & 1 Free tickets.
+[Game 466]: We won: $0, and 1 Free Tickets.
+
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $20 & 0 Free tickets.
+[Game 467]: We won: $20, and 1 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 468]: We won: $0, and 4 Free Tickets.
+
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 469]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 470]: We won: $0, and 1 Free Tickets.
+
+[Game 471]: We won: $0, and 0 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 472]: We won: $0, and 2 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 473]: We won: $0, and 3 Free Tickets.
+
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 474]: We won: $0, and 4 Free Tickets.
+
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $20 & 0 Free tickets.
+[Game 475]: We won: $20, and 1 Free Tickets.
+
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+[Game 476]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 477]: We won: $0, and 2 Free Tickets.
+
+[Game 478]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+[Game 479]: We won: $0, and 6 Free Tickets.
+
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $20 & 0 Free tickets.
+[Game 480]: We won: $20, and 1 Free Tickets.
+
+[Game 481]: We won: $0, and 0 Free Tickets.
+
+Ticket [8, 9, 21, 26, 33, 37, 39] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+[Game 482]: We won: $0, and 5 Free Tickets.
+
+Ticket [3, 21, 27, 28, 36, 45, 47] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [1, 8, 12, 15, 34, 38, 45] won: $0 & 1 Free tickets.
+[Game 483]: We won: $0, and 3 Free Tickets.
+
+Ticket [4, 8, 10, 24, 31, 33, 38] won: $20 & 0 Free tickets.
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 484]: We won: $20, and 4 Free Tickets.
+
+Ticket [3, 6, 8, 11, 13, 16, 40] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $20 & 0 Free tickets.
+[Game 485]: We won: $20, and 1 Free Tickets.
+
+Ticket [1, 4, 14, 15, 17, 18, 34] won: $0 & 1 Free tickets.
+Ticket [2, 5, 13, 15, 16, 18, 37] won: $0 & 1 Free tickets.
+Ticket [10, 11, 13, 15, 17, 18, 44] won: $0 & 1 Free tickets.
+[Game 486]: We won: $0, and 3 Free Tickets.
+
+Ticket [5, 9, 34, 36, 40, 42, 43] won: $20 & 0 Free tickets.
+Ticket [5, 9, 14, 15, 19, 28, 43] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 487]: We won: $20, and 2 Free Tickets.
+
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 488]: We won: $0, and 2 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 489]: We won: $0, and 4 Free Tickets.
+
+Ticket [7, 9, 12, 18, 26, 30, 34] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 490]: We won: $0, and 2 Free Tickets.
+
+[Game 491]: We won: $0, and 0 Free Tickets.
+
+[Game 492]: We won: $0, and 0 Free Tickets.
+
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $20 & 0 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 493]: We won: $20, and 2 Free Tickets.
+
+Ticket [2, 5, 8, 11, 14, 17, 36] won: $0 & 1 Free tickets.
+Ticket [7, 8, 10, 11, 15, 18, 42] won: $0 & 1 Free tickets.
+Ticket [4, 8, 15, 26, 28, 34, 47] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+[Game 494]: We won: $0, and 4 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 495]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 496]: We won: $0, and 3 Free Tickets.
+
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+[Game 497]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+[Game 498]: We won: $0, and 5 Free Tickets.
+
+Ticket [1, 8, 12, 15, 34, 38, 45] won: $0 & 1 Free tickets.
+[Game 499]: We won: $0, and 1 Free Tickets.
+
+[Game 500]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [3, 15, 26, 36, 41, 42, 45] won: $0 & 1 Free tickets.
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $20 & 0 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 501]: We won: $20, and 10 Free Tickets.
+
+Ticket [2, 5, 13, 15, 16, 18, 37] won: $0 & 1 Free tickets.
+Ticket [2, 6, 8, 10, 13, 15, 38] won: $0 & 1 Free tickets.
+Ticket [7, 9, 11, 12, 13, 28, 29] won: $0 & 1 Free tickets.
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 502]: We won: $0, and 5 Free Tickets.
+
+[Game 503]: We won: $0, and 0 Free Tickets.
+
+[Game 504]: We won: $0, and 0 Free Tickets.
+
+Ticket [5, 6, 7, 8, 19, 37, 38] won: $20 & 0 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 505]: We won: $20, and 2 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 506]: We won: $0, and 1 Free Tickets.
+
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 507]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $20 & 0 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 508]: We won: $20, and 1 Free Tickets.
+
+Ticket [3, 6, 7, 10, 14, 17, 39] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $20 & 0 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 509]: We won: $20, and 2 Free Tickets.
+
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 510]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+[Game 511]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $134 & 0 Free tickets.
+[Game 512]: We won: $134, and 3 Free Tickets.
+
+Ticket [1, 4, 7, 10, 13, 16, 32] won: $0 & 1 Free tickets.
+Ticket [2, 5, 7, 9, 10, 12, 35] won: $0 & 1 Free tickets.
+Ticket [5, 7, 13, 17, 21, 33, 39] won: $0 & 1 Free tickets.
+Ticket [2, 7, 17, 21, 29, 45, 46] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 513]: We won: $0, and 5 Free Tickets.
+
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 514]: We won: $0, and 1 Free Tickets.
+
+Ticket [2, 8, 21, 29, 43, 46, 47] won: $0 & 1 Free tickets.
+[Game 515]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 516]: We won: $0, and 6 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+[Game 517]: We won: $0, and 5 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 518]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $20 & 0 Free tickets.
+[Game 519]: We won: $20, and 0 Free Tickets.
+
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $20 & 0 Free tickets.
+[Game 520]: We won: $20, and 0 Free Tickets.
+
+[Game 521]: We won: $0, and 0 Free Tickets.
+
+[Game 522]: We won: $0, and 0 Free Tickets.
+
+Ticket [10, 15, 17, 20, 26, 28, 46] won: $0 & 1 Free tickets.
+[Game 523]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $20 & 0 Free tickets.
+[Game 524]: We won: $20, and 0 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+[Game 525]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 526]: We won: $0, and 2 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $20 & 0 Free tickets.
+[Game 527]: We won: $20, and 2 Free Tickets.
+
+Ticket [1, 4, 8, 9, 11, 12, 33] won: $0 & 1 Free tickets.
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+[Game 528]: We won: $0, and 2 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $20 & 0 Free tickets.
+[Game 529]: We won: $20, and 1 Free Tickets.
+
+Ticket [3, 6, 8, 11, 13, 16, 40] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 530]: We won: $0, and 3 Free Tickets.
+
+Ticket [3, 10, 15, 16, 31, 36, 41] won: $0 & 1 Free tickets.
+[Game 531]: We won: $0, and 1 Free Tickets.
+
+Ticket [18, 23, 29, 36, 40, 44, 45] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 532]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 533]: We won: $0, and 3 Free Tickets.
+
+[Game 534]: We won: $0, and 0 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $20 & 0 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 535]: We won: $20, and 3 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $20 & 0 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 536]: We won: $20, and 5 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+[Game 537]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 538]: We won: $0, and 3 Free Tickets.
+
+[Game 539]: We won: $0, and 0 Free Tickets.
+
+Ticket [4, 6, 10, 19, 35, 43, 45] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+[Game 540]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $20 & 0 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $20 & 0 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $20 & 0 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $20 & 0 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 541]: We won: $80, and 5 Free Tickets.
+
+Ticket [4, 9, 10, 17, 20, 25, 29] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 542]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $20 & 0 Free tickets.
+[Game 543]: We won: $20, and 7 Free Tickets.
+
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 544]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $20 & 0 Free tickets.
+[Game 545]: We won: $20, and 0 Free Tickets.
+
+Ticket [1, 4, 14, 15, 17, 18, 34] won: $0 & 1 Free tickets.
+Ticket [7, 8, 10, 11, 15, 18, 42] won: $0 & 1 Free tickets.
+Ticket [10, 11, 13, 15, 17, 18, 44] won: $0 & 1 Free tickets.
+[Game 546]: We won: $0, and 3 Free Tickets.
+
+[Game 547]: We won: $0, and 0 Free Tickets.
+
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 548]: We won: $0, and 2 Free Tickets.
+
+[Game 549]: We won: $0, and 0 Free Tickets.
+
+[Game 550]: We won: $0, and 0 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 551]: We won: $0, and 1 Free Tickets.
+
+[Game 552]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+[Game 553]: We won: $0, and 5 Free Tickets.
+
+Ticket [7, 14, 23, 31, 33, 40, 41] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 554]: We won: $0, and 3 Free Tickets.
+
+Ticket [2, 8, 27, 29, 34, 38, 47] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 555]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $20 & 0 Free tickets.
+[Game 556]: We won: $20, and 2 Free Tickets.
+
+Ticket [9, 12, 13, 14, 16, 17, 43] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 557]: We won: $0, and 6 Free Tickets.
+
+Ticket [1, 2, 15, 32, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $20 & 0 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $20 & 0 Free tickets.
+[Game 558]: We won: $40, and 3 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $20 & 0 Free tickets.
+[Game 559]: We won: $20, and 0 Free Tickets.
+
+[Game 560]: We won: $0, and 0 Free Tickets.
+
+Ticket [17, 21, 29, 38, 40, 42, 47] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+[Game 561]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+[Game 562]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 9, 12, 16, 25, 30, 43] won: $0 & 1 Free tickets.
+[Game 563]: We won: $0, and 1 Free Tickets.
+
+[Game 564]: We won: $0, and 0 Free Tickets.
+
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 565]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+[Game 566]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 567]: We won: $0, and 9 Free Tickets.
+
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 568]: We won: $0, and 2 Free Tickets.
+
+Ticket [9, 25, 28, 30, 38, 39, 46] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 569]: We won: $0, and 2 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 570]: We won: $0, and 2 Free Tickets.
+
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 571]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 572]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 573]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 15, 21, 24, 25, 42, 48] won: $0 & 1 Free tickets.
+[Game 574]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 575]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 16, 24, 29, 32, 40, 47] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 576]: We won: $0, and 3 Free Tickets.
+
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 577]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 578]: We won: $0, and 2 Free Tickets.
+
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 579]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 580]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $20 & 0 Free tickets.
+[Game 581]: We won: $20, and 3 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $134 & 0 Free tickets.
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $20 & 0 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 582]: We won: $154, and 2 Free Tickets.
+
+Ticket [8, 24, 26, 34, 42, 43, 47] won: $0 & 1 Free tickets.
+Ticket [4, 8, 23, 24, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [12, 18, 20, 30, 31, 37, 43] won: $0 & 1 Free tickets.
+Ticket [3, 5, 22, 24, 30, 39, 43] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $20 & 0 Free tickets.
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 583]: We won: $20, and 8 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 584]: We won: $0, and 4 Free Tickets.
+
+Ticket [1, 8, 10, 18, 30, 41, 42] won: $0 & 1 Free tickets.
+[Game 585]: We won: $0, and 1 Free Tickets.
+
+[Game 586]: We won: $0, and 0 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 587]: We won: $0, and 1 Free Tickets.
+
+Ticket [6, 27, 31, 33, 36, 41, 43] won: $0 & 1 Free tickets.
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 588]: We won: $0, and 5 Free Tickets.
+
+Ticket [4, 7, 12, 30, 36, 44, 47] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 589]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 4, 12, 32, 42, 46, 48] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 590]: We won: $0, and 8 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+[Game 591]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 592]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 8, 15, 29, 31, 36, 42] won: $0 & 1 Free tickets.
+[Game 593]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+[Game 594]: We won: $0, and 2 Free Tickets.
+
+Ticket [6, 15, 23, 28, 30, 35, 46] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 595]: We won: $0, and 3 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 596]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 597]: We won: $0, and 6 Free Tickets.
+
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 598]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 12, 15, 23, 29, 30, 46] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+[Game 599]: We won: $0, and 3 Free Tickets.
+
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 600]: We won: $0, and 5 Free Tickets.
+
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 601]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $20 & 0 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 602]: We won: $20, and 1 Free Tickets.
+
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 603]: We won: $0, and 1 Free Tickets.
+
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 604]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $20 & 0 Free tickets.
+[Game 605]: We won: $20, and 1 Free Tickets.
+
+Ticket [2, 5, 8, 11, 14, 17, 36] won: $0 & 1 Free tickets.
+[Game 606]: We won: $0, and 1 Free Tickets.
+
+Ticket [8, 15, 34, 35, 40, 46, 47] won: $0 & 1 Free tickets.
+[Game 607]: We won: $0, and 1 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 608]: We won: $0, and 2 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 609]: We won: $0, and 4 Free Tickets.
+
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 610]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $20 & 0 Free tickets.
+[Game 611]: We won: $20, and 0 Free Tickets.
+
+Ticket [3, 6, 7, 10, 14, 17, 39] won: $0 & 1 Free tickets.
+Ticket [9, 12, 13, 14, 16, 17, 43] won: $0 & 1 Free tickets.
+[Game 612]: We won: $0, and 2 Free Tickets.
+
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 613]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $20 & 0 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 614]: We won: $20, and 2 Free Tickets.
+
+Ticket [1, 4, 14, 15, 17, 18, 34] won: $0 & 1 Free tickets.
+Ticket [7, 8, 10, 11, 15, 18, 42] won: $0 & 1 Free tickets.
+Ticket [10, 11, 13, 15, 17, 18, 44] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 615]: We won: $0, and 5 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 616]: We won: $0, and 4 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+[Game 617]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 19, 22, 29, 39, 40, 46] won: $0 & 1 Free tickets.
+Ticket [1, 2, 18, 19, 30, 36, 48] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+[Game 618]: We won: $0, and 3 Free Tickets.
+
+Ticket [5, 11, 15, 16, 33, 39, 46] won: $0 & 1 Free tickets.
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+[Game 619]: We won: $0, and 2 Free Tickets.
+
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 620]: We won: $0, and 1 Free Tickets.
+
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+[Game 621]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 13, 21, 26, 30, 45, 48] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 622]: We won: $0, and 4 Free Tickets.
+
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $20 & 0 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 623]: We won: $20, and 2 Free Tickets.
+
+[Game 624]: We won: $0, and 0 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 625]: We won: $0, and 4 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+[Game 626]: We won: $0, and 6 Free Tickets.
+
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+[Game 627]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+[Game 628]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 629]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 630]: We won: $0, and 1 Free Tickets.
+
+Ticket [2, 15, 21, 22, 23, 44, 47] won: $0 & 1 Free tickets.
+[Game 631]: We won: $0, and 1 Free Tickets.
+
+Ticket [12, 15, 23, 25, 29, 43, 46] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 632]: We won: $0, and 3 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 633]: We won: $0, and 2 Free Tickets.
+
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 634]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+[Game 635]: We won: $0, and 2 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 636]: We won: $0, and 2 Free Tickets.
+
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 637]: We won: $0, and 1 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $20 & 0 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 638]: We won: $20, and 4 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 639]: We won: $0, and 2 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+[Game 640]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $20 & 0 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $20 & 0 Free tickets.
+[Game 641]: We won: $40, and 0 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+[Game 642]: We won: $0, and 3 Free Tickets.
+
+[Game 643]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 644]: We won: $0, and 2 Free Tickets.
+
+Ticket [11, 12, 28, 29, 33, 35, 40] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 645]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 6, 20, 22, 26, 40, 41] won: $0 & 1 Free tickets.
+[Game 646]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $134 & 0 Free tickets.
+[Game 647]: We won: $134, and 0 Free Tickets.
+
+Ticket [6, 9, 16, 21, 23, 32, 41] won: $0 & 1 Free tickets.
+[Game 648]: We won: $0, and 1 Free Tickets.
+
+Ticket [9, 10, 15, 25, 37, 40, 45] won: $0 & 1 Free tickets.
+Ticket [3, 13, 23, 31, 35, 39, 44] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 649]: We won: $0, and 3 Free Tickets.
+
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 650]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+[Game 651]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 652]: We won: $0, and 2 Free Tickets.
+
+[Game 653]: We won: $0, and 0 Free Tickets.
+
+Ticket [12, 22, 25, 29, 40, 41, 44] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+[Game 654]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 655]: We won: $0, and 5 Free Tickets.
+
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 656]: We won: $0, and 4 Free Tickets.
+
+[Game 657]: We won: $0, and 0 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+[Game 658]: We won: $0, and 1 Free Tickets.
+
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+[Game 659]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 660]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+Ticket [3, 10, 15, 16, 31, 36, 41] won: $0 & 1 Free tickets.
+[Game 661]: We won: $0, and 7 Free Tickets.
+
+Ticket [4, 13, 22, 37, 38, 39, 40] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 662]: We won: $0, and 2 Free Tickets.
+
+Ticket [4, 6, 33, 38, 40, 41, 48] won: $20 & 0 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 663]: We won: $20, and 2 Free Tickets.
+
+Ticket [2, 5, 8, 11, 14, 17, 36] won: $20 & 0 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 664]: We won: $20, and 1 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 30] won: $0 & 1 Free tickets.
+Ticket [2, 5, 13, 15, 16, 18, 37] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+[Game 665]: We won: $0, and 4 Free Tickets.
+
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 666]: We won: $0, and 4 Free Tickets.
+
+[Game 667]: We won: $0, and 0 Free Tickets.
+
+Ticket [2, 4, 21, 37, 39, 40, 47] won: $20 & 0 Free tickets.
+[Game 668]: We won: $20, and 0 Free Tickets.
+
+Ticket [2, 6, 8, 10, 13, 15, 38] won: $0 & 1 Free tickets.
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 669]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 670]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 671]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $20 & 0 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 672]: We won: $20, and 1 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 30] won: $0 & 1 Free tickets.
+Ticket [1, 4, 14, 15, 17, 18, 34] won: $0 & 1 Free tickets.
+Ticket [2, 5, 7, 9, 10, 12, 35] won: $0 & 1 Free tickets.
+Ticket [2, 5, 8, 11, 14, 17, 36] won: $20 & 0 Free tickets.
+Ticket [9, 12, 13, 14, 16, 17, 43] won: $0 & 1 Free tickets.
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 673]: We won: $20, and 6 Free Tickets.
+
+Ticket [1, 4, 7, 10, 13, 16, 32] won: $0 & 1 Free tickets.
+Ticket [3, 6, 8, 11, 13, 16, 40] won: $0 & 1 Free tickets.
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+Ticket [2, 12, 16, 21, 26, 32, 45] won: $0 & 1 Free tickets.
+[Game 674]: We won: $0, and 5 Free Tickets.
+
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 675]: We won: $0, and 1 Free Tickets.
+
+Ticket [6, 13, 16, 33, 35, 41, 42] won: $0 & 1 Free tickets.
+[Game 676]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 677]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $20 & 0 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 678]: We won: $20, and 6 Free Tickets.
+
+Ticket [1, 4, 8, 9, 11, 12, 33] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 679]: We won: $0, and 2 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+[Game 680]: We won: $0, and 1 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 681]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 682]: We won: $0, and 1 Free Tickets.
+
+[Game 683]: We won: $0, and 0 Free Tickets.
+
+Ticket [7, 25, 36, 37, 38, 39, 44] won: $20 & 0 Free tickets.
+Ticket [7, 8, 10, 17, 28, 31, 38] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 684]: We won: $20, and 6 Free Tickets.
+
+Ticket [4, 18, 23, 29, 36, 44, 48] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $20 & 0 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 685]: We won: $20, and 3 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $20 & 0 Free tickets.
+[Game 686]: We won: $20, and 3 Free Tickets.
+
+Ticket [7, 8, 10, 11, 15, 18, 42] won: $20 & 0 Free tickets.
+[Game 687]: We won: $20, and 0 Free Tickets.
+
+Ticket [10, 11, 13, 15, 17, 18, 44] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 688]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+[Game 689]: We won: $0, and 1 Free Tickets.
+
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+[Game 690]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 691]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 10, 15, 20, 23, 38, 47] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 692]: We won: $0, and 2 Free Tickets.
+
+[Game 693]: We won: $0, and 0 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 694]: We won: $0, and 2 Free Tickets.
+
+[Game 695]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [7, 12, 22, 26, 37, 38, 42] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 696]: We won: $0, and 11 Free Tickets.
+
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 697]: We won: $0, and 3 Free Tickets.
+
+Ticket [4, 5, 12, 15, 26, 30, 45] won: $0 & 1 Free tickets.
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 698]: We won: $0, and 3 Free Tickets.
+
+Ticket [2, 3, 7, 8, 9, 34, 36] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $20 & 0 Free tickets.
+[Game 699]: We won: $20, and 1 Free Tickets.
+
+Ticket [2, 5, 7, 9, 10, 12, 35] won: $20 & 0 Free tickets.
+[Game 700]: We won: $20, and 0 Free Tickets.
+
+Ticket [2, 6, 8, 10, 13, 15, 38] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 701]: We won: $0, and 2 Free Tickets.
+
+Ticket [9, 23, 26, 28, 30, 42, 45] won: $0 & 1 Free tickets.
+Ticket [1, 19, 24, 27, 30, 36, 42] won: $0 & 1 Free tickets.
+[Game 702]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 7, 11, 17, 27, 40, 45] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 703]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 704]: We won: $0, and 4 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 705]: We won: $0, and 4 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 706]: We won: $0, and 4 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 707]: We won: $0, and 3 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+[Game 708]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+[Game 709]: We won: $0, and 2 Free Tickets.
+
+Ticket [12, 17, 18, 23, 29, 37, 39] won: $0 & 1 Free tickets.
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 710]: We won: $0, and 3 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [3, 10, 15, 16, 31, 36, 41] won: $0 & 1 Free tickets.
+[Game 711]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 4, 17, 31, 37, 38, 43] won: $0 & 1 Free tickets.
+[Game 712]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+[Game 713]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 714]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 715]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $20 & 0 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 716]: We won: $20, and 2 Free Tickets.
+
+Ticket [1, 4, 8, 9, 11, 12, 33] won: $0 & 1 Free tickets.
+Ticket [1, 4, 14, 15, 17, 18, 34] won: $0 & 1 Free tickets.
+[Game 717]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $20 & 0 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 718]: We won: $20, and 3 Free Tickets.
+
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 719]: We won: $0, and 1 Free Tickets.
+
+[Game 720]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 721]: We won: $0, and 6 Free Tickets.
+
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+Ticket [2, 12, 16, 21, 26, 32, 45] won: $0 & 1 Free tickets.
+[Game 722]: We won: $0, and 2 Free Tickets.
+
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 723]: We won: $0, and 3 Free Tickets.
+
+Ticket [10, 20, 29, 33, 40, 45, 48] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 724]: We won: $0, and 3 Free Tickets.
+
+Ticket [2, 8, 9, 15, 20, 31, 45] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 725]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 726]: We won: $0, and 2 Free Tickets.
+
+Ticket [10, 17, 22, 24, 28, 31, 45] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $20 & 0 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 727]: We won: $20, and 3 Free Tickets.
+
+Ticket [1, 4, 8, 9, 11, 12, 33] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+[Game 728]: We won: $0, and 2 Free Tickets.
+
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 729]: We won: $0, and 1 Free Tickets.
+
+[Game 730]: We won: $0, and 0 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $0 & 1 Free tickets.
+[Game 731]: We won: $0, and 2 Free Tickets.
+
+Ticket [2, 14, 16, 19, 21, 23, 45] won: $0 & 1 Free tickets.
+[Game 732]: We won: $0, and 1 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 733]: We won: $0, and 4 Free Tickets.
+
+Ticket [3, 10, 15, 16, 31, 36, 41] won: $0 & 1 Free tickets.
+[Game 734]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 735]: We won: $0, and 3 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 736]: We won: $0, and 3 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 737]: We won: $0, and 2 Free Tickets.
+
+[Game 738]: We won: $0, and 0 Free Tickets.
+
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 739]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 740]: We won: $0, and 1 Free Tickets.
+
+Ticket [9, 17, 29, 34, 35, 37, 41] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 741]: We won: $0, and 3 Free Tickets.
+
+[Game 742]: We won: $0, and 0 Free Tickets.
+
+[Game 743]: We won: $0, and 0 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $20 & 0 Free tickets.
+[Game 744]: We won: $20, and 4 Free Tickets.
+
+[Game 745]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 14, 18, 24, 35, 36, 38] won: $0 & 1 Free tickets.
+Ticket [22, 29, 30, 35, 41, 47, 48] won: $0 & 1 Free tickets.
+Ticket [1, 10, 18, 21, 36, 38, 48] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $20 & 0 Free tickets.
+[Game 746]: We won: $20, and 4 Free Tickets.
+
+Ticket [1, 4, 14, 15, 17, 18, 34] won: $20 & 0 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+[Game 747]: We won: $20, and 1 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 30] won: $0 & 1 Free tickets.
+Ticket [1, 3, 7, 9, 12, 14, 31] won: $0 & 1 Free tickets.
+Ticket [3, 6, 7, 10, 14, 17, 39] won: $20 & 0 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+[Game 748]: We won: $20, and 4 Free Tickets.
+
+Ticket [2, 6, 8, 10, 13, 15, 38] won: $0 & 1 Free tickets.
+Ticket [3, 6, 8, 11, 13, 16, 40] won: $20 & 0 Free tickets.
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $20 & 0 Free tickets.
+[Game 749]: We won: $40, and 2 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 750]: We won: $0, and 3 Free Tickets.
+
+Ticket [3, 10, 15, 16, 31, 36, 41] won: $0 & 1 Free tickets.
+[Game 751]: We won: $0, and 1 Free Tickets.
+
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 752]: We won: $0, and 1 Free Tickets.
+
+Ticket [1, 3, 11, 12, 18, 23, 29] won: $0 & 1 Free tickets.
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 753]: We won: $0, and 3 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 754]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $20 & 0 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $20 & 0 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $20 & 0 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $134 & 0 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $20 & 0 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $134 & 0 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $20 & 0 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $134 & 0 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+[Game 755]: We won: $502, and 1 Free Tickets.
+
+Ticket [3, 18, 25, 33, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [12, 15, 16, 25, 38, 43, 46] won: $0 & 1 Free tickets.
+Ticket [3, 13, 15, 16, 19, 22, 25] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+[Game 756]: We won: $0, and 4 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+[Game 757]: We won: $0, and 7 Free Tickets.
+
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+[Game 758]: We won: $0, and 1 Free Tickets.
+
+Ticket [4, 24, 27, 32, 38, 39, 43] won: $20 & 0 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 759]: We won: $20, and 1 Free Tickets.
+
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $20 & 0 Free tickets.
+[Game 760]: We won: $20, and 0 Free Tickets.
+
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $20 & 0 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 761]: We won: $20, and 4 Free Tickets.
+
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $20 & 0 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 762]: We won: $20, and 4 Free Tickets.
+
+Ticket [3, 6, 8, 11, 13, 16, 40] won: $0 & 1 Free tickets.
+Ticket [7, 8, 10, 11, 15, 18, 42] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+[Game 763]: We won: $0, and 3 Free Tickets.
+
+[Game 764]: We won: $0, and 0 Free Tickets.
+
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $20 & 0 Free tickets.
+[Game 765]: We won: $20, and 1 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 30] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 766]: We won: $0, and 3 Free Tickets.
+
+[Game 767]: We won: $0, and 0 Free Tickets.
+
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 768]: We won: $0, and 1 Free Tickets.
+
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 769]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 3, 17, 23, 25, 26, 32] won: $0 & 1 Free tickets.
+Ticket [1, 5, 20, 23, 34, 38, 45] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+[Game 770]: We won: $0, and 3 Free Tickets.
+
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 771]: We won: $0, and 1 Free Tickets.
+
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 772]: We won: $0, and 1 Free Tickets.
+
+[Game 773]: We won: $0, and 0 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 774]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 775]: We won: $0, and 4 Free Tickets.
+
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 776]: We won: $0, and 3 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+[Game 777]: We won: $0, and 1 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 778]: We won: $0, and 5 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+[Game 779]: We won: $0, and 6 Free Tickets.
+
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $20 & 0 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 780]: We won: $20, and 2 Free Tickets.
+
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 781]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $20 & 0 Free tickets.
+[Game 782]: We won: $20, and 0 Free Tickets.
+
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $20 & 0 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 783]: We won: $20, and 2 Free Tickets.
+
+Ticket [1, 4, 14, 15, 17, 18, 34] won: $20 & 0 Free tickets.
+Ticket [10, 11, 13, 15, 17, 18, 44] won: $20 & 0 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 784]: We won: $40, and 1 Free Tickets.
+
+Ticket [3, 6, 8, 11, 13, 16, 40] won: $20 & 0 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+[Game 785]: We won: $20, and 2 Free Tickets.
+
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $20 & 0 Free tickets.
+[Game 786]: We won: $20, and 0 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 787]: We won: $0, and 4 Free Tickets.
+
+Ticket [1, 4, 6, 12, 29, 31, 35] won: $0 & 1 Free tickets.
+[Game 788]: We won: $0, and 1 Free Tickets.
+
+[Game 789]: We won: $0, and 0 Free Tickets.
+
+[Game 790]: We won: $0, and 0 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+[Game 791]: We won: $0, and 1 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 792]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+[Game 793]: We won: $0, and 7 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 794]: We won: $0, and 6 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [3, 4, 10, 13, 31, 36, 42] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $20 & 0 Free tickets.
+[Game 795]: We won: $20, and 4 Free Tickets.
+
+Ticket [2, 5, 13, 15, 16, 18, 37] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 796]: We won: $0, and 4 Free Tickets.
+
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 797]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 11, 14, 27, 30, 35, 46] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $20 & 0 Free tickets.
+[Game 798]: We won: $20, and 3 Free Tickets.
+
+Ticket [3, 6, 7, 10, 14, 17, 39] won: $134 & 0 Free tickets.
+Ticket [3, 6, 8, 11, 13, 16, 40] won: $20 & 0 Free tickets.
+Ticket [7, 8, 10, 11, 15, 18, 42] won: $0 & 1 Free tickets.
+Ticket [10, 11, 13, 15, 17, 18, 44] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 799]: We won: $154, and 3 Free Tickets.
+
+Ticket [2, 5, 13, 15, 16, 18, 37] won: $0 & 1 Free tickets.
+Ticket [3, 6, 8, 11, 13, 16, 40] won: $0 & 1 Free tickets.
+Ticket [7, 8, 10, 11, 15, 18, 42] won: $0 & 1 Free tickets.
+Ticket [2, 4, 6, 16, 19, 41, 46] won: $0 & 1 Free tickets.
+Ticket [10, 16, 18, 23, 25, 28, 42] won: $0 & 1 Free tickets.
+[Game 800]: We won: $0, and 5 Free Tickets.
+
+[Game 801]: We won: $0, and 0 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [6, 8, 23, 31, 39, 40, 45] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 802]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 803]: We won: $0, and 2 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+[Game 804]: We won: $0, and 1 Free Tickets.
+
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 805]: We won: $0, and 2 Free Tickets.
+
+Ticket [4, 10, 13, 24, 26, 34, 46] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+[Game 806]: We won: $0, and 2 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 807]: We won: $0, and 2 Free Tickets.
+
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 808]: We won: $0, and 2 Free Tickets.
+
+Ticket [6, 8, 16, 17, 18, 38, 42] won: $0 & 1 Free tickets.
+[Game 809]: We won: $0, and 1 Free Tickets.
+
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $20 & 0 Free tickets.
+[Game 810]: We won: $20, and 1 Free Tickets.
+
+Ticket [2, 5, 8, 11, 14, 17, 36] won: $0 & 1 Free tickets.
+Ticket [11, 12, 14, 24, 28, 40, 48] won: $0 & 1 Free tickets.
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 811]: We won: $0, and 5 Free Tickets.
+
+[Game 812]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 4, 6, 22, 27, 29, 41] won: $0 & 1 Free tickets.
+Ticket [10, 11, 12, 24, 37, 43, 45] won: $0 & 1 Free tickets.
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 813]: We won: $0, and 4 Free Tickets.
+
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 814]: We won: $0, and 4 Free Tickets.
+
+Ticket [6, 7, 9, 11, 14, 31, 35] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 815]: We won: $0, and 3 Free Tickets.
+
+Ticket [20, 25, 26, 27, 30, 42, 43] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $20 & 0 Free tickets.
+[Game 816]: We won: $20, and 4 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 817]: We won: $0, and 1 Free Tickets.
+
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 818]: We won: $0, and 2 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 819]: We won: $0, and 5 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $20 & 0 Free tickets.
+[Game 820]: We won: $20, and 1 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $20 & 0 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 821]: We won: $20, and 4 Free Tickets.
+
+Ticket [1, 4, 14, 15, 17, 18, 34] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+Ticket [1, 8, 12, 15, 34, 38, 45] won: $0 & 1 Free tickets.
+[Game 822]: We won: $0, and 4 Free Tickets.
+
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 823]: We won: $0, and 1 Free Tickets.
+
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 824]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [1, 18, 25, 29, 32, 45, 48] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 825]: We won: $0, and 4 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 826]: We won: $0, and 3 Free Tickets.
+
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+[Game 827]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+[Game 828]: We won: $0, and 2 Free Tickets.
+
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 829]: We won: $0, and 2 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 830]: We won: $0, and 2 Free Tickets.
+
+[Game 831]: We won: $0, and 0 Free Tickets.
+
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 832]: We won: $0, and 3 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 833]: We won: $0, and 4 Free Tickets.
+
+Ticket [8, 10, 12, 18, 36, 41, 44] won: $0 & 1 Free tickets.
+Ticket [3, 10, 15, 16, 31, 36, 41] won: $0 & 1 Free tickets.
+[Game 834]: We won: $0, and 2 Free Tickets.
+
+[Game 835]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 836]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+[Game 837]: We won: $0, and 3 Free Tickets.
+
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+Ticket [9, 17, 20, 28, 31, 41, 42] won: $0 & 1 Free tickets.
+[Game 838]: We won: $0, and 2 Free Tickets.
+
+[Game 839]: We won: $0, and 0 Free Tickets.
+
+Ticket [4, 12, 14, 23, 25, 31, 43] won: $0 & 1 Free tickets.
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 840]: We won: $0, and 3 Free Tickets.
+
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+Ticket [3, 10, 15, 16, 31, 36, 41] won: $20 & 0 Free tickets.
+[Game 841]: We won: $20, and 1 Free Tickets.
+
+Ticket [1, 3, 7, 9, 12, 14, 31] won: $0 & 1 Free tickets.
+Ticket [2, 5, 7, 9, 10, 12, 35] won: $0 & 1 Free tickets.
+Ticket [3, 6, 9, 12, 15, 18, 41] won: $0 & 1 Free tickets.
+[Game 842]: We won: $0, and 3 Free Tickets.
+
+Ticket [8, 9, 12, 19, 21, 24, 46] won: $0 & 1 Free tickets.
+Ticket [8, 13, 14, 16, 19, 33, 37] won: $0 & 1 Free tickets.
+[Game 843]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 13, 23, 25, 26, 38, 45] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 844]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+[Game 845]: We won: $0, and 2 Free Tickets.
+
+Ticket [7, 10, 27, 29, 32, 39, 42] won: $0 & 1 Free tickets.
+Ticket [7, 14, 17, 23, 24, 30, 31] won: $0 & 1 Free tickets.
+Ticket [3, 10, 23, 25, 26, 39, 44] won: $0 & 1 Free tickets.
+[Game 846]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [5, 26, 29, 33, 37, 42, 46] won: $0 & 1 Free tickets.
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $20 & 0 Free tickets.
+[Game 847]: We won: $20, and 6 Free Tickets.
+
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+[Game 848]: We won: $0, and 1 Free Tickets.
+
+Ticket [7, 8, 12, 15, 27, 38, 46] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 849]: We won: $0, and 2 Free Tickets.
+
+Ticket [6, 17, 29, 33, 37, 38, 40] won: $20 & 0 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 850]: We won: $20, and 1 Free Tickets.
+
+Ticket [7, 8, 10, 11, 15, 18, 42] won: $0 & 1 Free tickets.
+Ticket [9, 12, 13, 14, 16, 17, 43] won: $0 & 1 Free tickets.
+[Game 851]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [1, 2, 19, 23, 27, 30, 37] won: $20 & 0 Free tickets.
+[Game 852]: We won: $20, and 1 Free Tickets.
+
+Ticket [2, 5, 8, 11, 14, 17, 36] won: $0 & 1 Free tickets.
+[Game 853]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+Ticket [4, 27, 31, 37, 43, 47, 48] won: $0 & 1 Free tickets.
+[Game 854]: We won: $0, and 3 Free Tickets.
+
+Ticket [19, 22, 23, 35, 38, 43, 44] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 855]: We won: $0, and 3 Free Tickets.
+
+Ticket [2, 9, 12, 24, 32, 36, 41] won: $0 & 1 Free tickets.
+[Game 856]: We won: $0, and 1 Free Tickets.
+
+[Game 857]: We won: $0, and 0 Free Tickets.
+
+Ticket [3, 22, 23, 36, 37, 39, 43] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [18, 28, 32, 34, 37, 39, 44] won: $0 & 1 Free tickets.
+[Game 858]: We won: $0, and 3 Free Tickets.
+
+Ticket [2, 12, 15, 30, 39, 43, 48] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [14, 15, 26, 28, 31, 35, 43] won: $0 & 1 Free tickets.
+Ticket [15, 23, 30, 31, 38, 41, 43] won: $0 & 1 Free tickets.
+[Game 859]: We won: $0, and 4 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+[Game 860]: We won: $0, and 5 Free Tickets.
+
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+Ticket [1, 4, 5, 16, 20, 29, 33] won: $0 & 1 Free tickets.
+[Game 861]: We won: $0, and 3 Free Tickets.
+
+Ticket [7, 10, 12, 25, 33, 42, 48] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 862]: We won: $0, and 2 Free Tickets.
+
+Ticket [4, 24, 27, 32, 33, 34, 37] won: $134 & 0 Free tickets.
+Ticket [4, 11, 20, 24, 26, 33, 36] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 863]: We won: $134, and 2 Free Tickets.
+
+Ticket [5, 9, 20, 38, 41, 43, 45] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 864]: We won: $0, and 2 Free Tickets.
+
+Ticket [5, 6, 14, 15, 24, 32, 47] won: $0 & 1 Free tickets.
+[Game 865]: We won: $0, and 1 Free Tickets.
+
+[Game 866]: We won: $0, and 0 Free Tickets.
+
+Ticket [18, 22, 23, 26, 28, 36, 39] won: $0 & 1 Free tickets.
+[Game 867]: We won: $0, and 1 Free Tickets.
+
+Ticket [9, 10, 11, 21, 25, 38, 40] won: $0 & 1 Free tickets.
+Ticket [6, 11, 17, 22, 32, 38, 39] won: $0 & 1 Free tickets.
+[Game 868]: We won: $0, and 2 Free Tickets.
+
+Ticket [5, 14, 22, 28, 34, 36, 43] won: $0 & 1 Free tickets.
+Ticket [14, 20, 30, 32, 37, 38, 44] won: $0 & 1 Free tickets.
+[Game 869]: We won: $0, and 2 Free Tickets.
+
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [5, 7, 19, 22, 32, 36, 39] won: $0 & 1 Free tickets.
+[Game 870]: We won: $0, and 2 Free Tickets.
+
+[Game 871]: We won: $0, and 0 Free Tickets.
+
+Ticket [1, 22, 26, 27, 39, 45, 46] won: $0 & 1 Free tickets.
+[Game 872]: We won: $0, and 1 Free Tickets.
+
+Ticket [3, 20, 21, 25, 29, 35, 36] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [24, 25, 31, 32, 33, 42, 47] won: $0 & 1 Free tickets.
+[Game 873]: We won: $0, and 3 Free Tickets.
+
+Ticket [1, 2, 3, 4, 5, 6, 7] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 5, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 2, 3, 4, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [1, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [2, 3, 4, 5, 6, 7, 8] won: $0 & 1 Free tickets.
+Ticket [3, 4, 25, 26, 28, 30, 35] won: $0 & 1 Free tickets.
+Ticket [3, 4, 5, 11, 25, 32, 45] won: $0 & 1 Free tickets.
+[Game 874]: We won: $0, and 7 Free Tickets.
+
+After 874 games, we won a total of $11277 and 1937 Free Tickets.
