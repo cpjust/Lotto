@@ -4,12 +4,14 @@ import random, ConfigParser, ast, copy
 from optparse import OptionParser
 
 # Global variables.
-config = {}         # Stores GameType config options.
-prizes = {}         # Stores prizes from config file.
-prize_amounts = {}  # Stores prize amounts from config file.
-ticket_quick_picks = []   # Store an array of QuickPicks to use for tickets.
-total_money_won = 0
-total_tickets_won = 0
+g_config = {}               # Stores GameType config options.
+g_prizes = {}               # Stores prizes from config file.
+g_prize_amounts = {}        # Stores prize amounts from config file.
+g_ticket_quick_picks = []   # Store an array of QuickPicks to use for tickets.
+g_total_money_won = 0
+g_total_tickets_won = 0
+g_prizes_won = {}           # Format: {'3':3, '3+1':2, '4':2 ...}
+g_quick_pick_file = ''
 
 
 class TicketNumbers( object ):
@@ -39,20 +41,20 @@ class TicketNumbers( object ):
         '''Sets the numbers member variable and validates the numbers.
         @param numbers: The numbers to assign.'''
 
-        global config
+        global g_config
         self.numbers = sorted( numbers )
 
-        if len( self.numbers ) != int(config['how_many_numbers']):
-            raise Exception( "You must have %d numbers, but found %d numbers: %s" % (config['how_many_numbers'], len( self.numbers ), str(self.numbers)) )
+        if len( self.numbers ) != int(g_config['how_many_numbers']):
+            raise Exception( "You must have %d numbers, but found %d numbers: %s" % (g_config['how_many_numbers'], len( self.numbers ), str(self.numbers)) )
         tmp = []
 
         for num in self.numbers:
             # Check if numbers are in range.
-            if ( num < int(config['min_number']) ) or ( num > int(config['max_number']) ):
-                raise Exception( "The numbers must be between %d & %d!" % (int(config['min_number']), int(config['max_number'])) )
+            if ( num < int(g_config['min_number']) ) or ( num > int(g_config['max_number']) ):
+                raise Exception( "The numbers must be between %d & %d!" % (int(g_config['min_number']), int(g_config['max_number'])) )
             # Check for duplicate numbers.
             if num in tmp:
-                raise Exception( "You cannot have duplicate numbers!" )
+                raise Exception( "You cannot have duplicate numbers!  %d in %s" % (num, str( self.numbers )) )
             tmp.append( num )
 
 
@@ -78,7 +80,7 @@ class PlayedTicket( TicketNumbers ):
         @param game_index: (optional) The game index for this game.  Defaults to 1 + the number of games recorded.
         @return: A tuple of ($$ won, # free tickets won).'''
 
-        global config, prizes, prize_amounts
+        global g_config, g_prizes, g_prize_amounts, g_prizes_won
         nums_correct = 0
         bonus_correct = 0
         amount_won = 0
@@ -95,20 +97,25 @@ class PlayedTicket( TicketNumbers ):
                 bonus_correct = bonus_correct + 1
 
         # Now see if we won anything.
-        for (key, value) in prizes.items():
+        for (key, value) in g_prizes.items():
             main_nums = key[0]
             bonus_nums = key[1]
 
             if (main_nums == nums_correct) and ((bonus_nums == bonus_correct) or (bonus_nums == 0)):
+                if not g_prizes_won.has_key( value ):
+                    g_prizes_won[value] = 0
+
+                g_prizes_won[value] = g_prizes_won[value] + 1  # Increment map of how many times each prize won. 
+
                 # We won.   Now figure out what we won.
-                if prize_amounts[value] > amount_won:
-                    amount_won = prize_amounts[value]
+                if g_prize_amounts[value] > amount_won:
+                    amount_won = g_prize_amounts[value]
                     tickets_won = 0
-                elif prize_amounts[value] == -1:
+                elif g_prize_amounts[value] == -1:
                     amount_won = 0
                     tickets_won = 1
 
-                if config['verbose']:
+                if g_config['verbose']:
                     print( "Ticket %s won: $%d & %d Free tickets." % (str(self.numbers), amount_won, tickets_won) )
 
         # Set and return the amount won.
@@ -142,13 +149,14 @@ class WinningNumbers( TicketNumbers ):
         @param numbers: The winning numbers.
         @param bonus_numbers: (optional) The bonus number(s).  Defaults to empty list.'''
 
+        global g_config
         bonus_numbers = bonus_numbers or []
         super( WinningNumbers, self ).__init__( numbers )
         self.bonus_numbers = sorted( bonus_numbers )
         tmp = []
 
-        if len( bonus_numbers ) != int(config['how_many_bonus']):
-            raise Exception( "You must have %d bonus numbers!" % int(config['how_many_bonus']) )
+        if len( bonus_numbers ) != int(g_config['how_many_bonus']):
+            raise Exception( "You must have %d bonus numbers!" % int(g_config['how_many_bonus']) )
 
         for num in bonus_numbers:
             if (num in tmp) or (num in self.numbers):
@@ -166,7 +174,7 @@ def load_config( filename ):
     @return: A ConfigParser object containing the parsed config file.'''
 
     # Read the config file into the parser.
-    global config, prizes, prize_amounts
+    global g_config, g_prizes, g_prize_amounts
     conf = ConfigParser.SafeConfigParser()
     conf.read( filename )
 
@@ -179,13 +187,13 @@ def load_config( filename ):
         if not conf.has_option( 'GameType', option ):
             raise Exception( "Invalid config file!  '%s' option is missing!" % option )
 
-        config[option] = int( conf.get( 'GameType', option ) )
+        g_config[option] = int( conf.get( 'GameType', option ) )
 
     # Prizes section contains maps.
-    prizes = ast.literal_eval( conf.get( 'Prizes', 'prizes' ) )
-    prize_amounts = ast.literal_eval( conf.get( 'Prizes', 'prize_amounts' ) )
-#    print( "*** prizes = %s  type = %s" % (str(prizes), type(prizes)) )                         # DEBUG
-#    print( "*** prize_amounts = %s  type = %s" % (str(prize_amounts), type(prize_amounts)) )    # DEBUG
+    g_prizes = ast.literal_eval( conf.get( 'Prizes', 'prizes' ) )
+    g_prize_amounts = ast.literal_eval( conf.get( 'Prizes', 'prize_amounts' ) )
+#    print( "*** prizes = %s  type = %s" % (str(g_prizes), type(g_prizes)) )                         # DEBUG
+#    print( "*** prize_amounts = %s  type = %s" % (str(g_prize_amounts), type(g_prize_amounts)) )    # DEBUG
 
 
 def load_tickets_conf( filename ):
@@ -230,6 +238,8 @@ def load_tickets_txt( filename, ticket_class = PlayedTicket ):
     @param ticket_class: (optional) The class name for the type of tickets you want returned.
     @return: A map of # of tickets to an array of Tickets.'''
 
+    global g_config
+
     # Read the file into an array of lines.
     fd = open( filename, 'r' )
     lines = fd.readlines()
@@ -241,7 +251,7 @@ def load_tickets_txt( filename, ticket_class = PlayedTicket ):
 
     if ticket_class != QuickPick:
         # Add the appropriate number of quick picks.
-        num_quick_picks = number_of_tickets * config['how_many_quick_pick_lines']
+        num_quick_picks = number_of_tickets * g_config['how_many_quick_pick_lines']
         ticket_list.extend( quick_picks( num_quick_picks ) )
 
     tickets = {number_of_tickets : ticket_list}
@@ -253,6 +263,8 @@ def load_winning_numbers( filename ):
     '''Loads the winning numbers from a CSV file and returns an array of WinningNumbers.
     @param filename: The filename of the CSV containing the winning numbers.
     @return: An array of WinningNumbers objects.'''
+
+    global g_config
 
     # Read the file into an array of lines.
     fd = open( filename, 'r' )
@@ -269,8 +281,8 @@ def load_winning_numbers( filename ):
             num_list[i] = int( num_list[i].strip().strip('\n') )
         numbers.append( num_list )
 
-    how_many_numbers = config['how_many_numbers']
-    how_many_bonus = config['how_many_bonus']
+    how_many_numbers = g_config['how_many_numbers']
+    how_many_bonus = g_config['how_many_bonus']
 
     # Create an array of WinningTickets.
     for line in numbers:
@@ -318,25 +330,29 @@ def quick_pick():
     '''Returns a QuickPick ticket.
     @return: A QuickPick ticket.'''
 
+    global g_config, g_quick_pick_file
     random.seed()
     numbers = []
 
-    while len( numbers ) < config['how_many_numbers']:
-        num = random.randrange( config['min_number'], config['max_number'], 1 )  # From 1 to 49, step by 1.
+    while len( numbers ) < g_config['how_many_numbers']:
+        num = random.randrange( g_config['min_number'], g_config['max_number'], 1 )  # From 1 to 49, step by 1.
 
         if not num in numbers:
             numbers.append( num )
 
-#    print( "*** quick_pick() returns: %s" % str(numbers) )    # DEBUG
+    # If we're using a quick pick file, this function should never be called, so print this to let us know.
+    if g_quick_pick_file:
+        print( "Warning: You specified a quick pick file, but quick_pick() was called and returned: %s" % str(numbers) )
+
     return QuickPick( numbers )
 
 
 def quick_picks( number_of_tickets, quick_pick_list=None ):
     '''Returns a list of QuickPick tickets.
     @param number_of_tickets: The number of QuickPick tickets to generate.
+    @param quick_pick_list: (optional) Get as many quick picks from this list instead of generating new ones.
     @return: A list of QuickPick tickets.'''
 
-    global ticket_quick_picks
     tickets = []
 
     if quick_pick_list:
@@ -366,7 +382,7 @@ def single_play( played_tickets, winning_numbers ):
     @param winning_numbers: A WinningNumbers object.
     @return: A tuple of ($$ won, # free tickets won).'''
 
-    global total_money_won, total_tickets_won
+    global g_total_money_won, g_total_tickets_won, g_config
     total_money = 0
     total_tickets = 0
     num_tickets = len( played_tickets )
@@ -375,16 +391,16 @@ def single_play( played_tickets, winning_numbers ):
     for i in range( 0, num_tickets - 1 ):
         ticket = played_tickets[i]
 
-        if config['debug_mode']:
-            print( "*** [%s] = %s" % (played_tickets[i].name(), str(played_tickets[i])) )
+        if g_config['verbose']:
+            print( "[%s] = %s" % (played_tickets[i].name(), str(played_tickets[i])) )
 
         (money_won, tickets_won) = ticket.compare_with( winning_numbers )
         total_money = total_money + money_won
         total_tickets = total_tickets + tickets_won
 
     # Keep track of the totals won over all.
-    total_money_won = total_money_won + total_money
-    total_tickets_won = total_tickets_won + total_tickets
+    g_total_money_won = g_total_money_won + total_money
+    g_total_tickets_won = g_total_tickets_won + total_tickets
 
     return (total_money, total_tickets)
 
@@ -396,7 +412,7 @@ def get_tickets( played_ticket_map, how_many_tickets, keys ):
     @param keys: The sorted list of keys in played_ticket_map.
     @return: An array of tickets of the specified size, with as many hand_picked tickets as possible.'''
 
-    global ticket_quick_picks
+    global g_ticket_quick_picks
     tickets = []
 
     # If any of the ticket pools have the exact number of tickets we need, use it; otherwise add quick picks
@@ -416,24 +432,24 @@ def get_tickets( played_ticket_map, how_many_tickets, keys ):
         if last_key_index == -1:
             # Looks like we're using all quick picks.
 #            print( "*** get_tickets() is adding all %d quick picks" % how_many_tickets )                   # DEBUG
-            tickets = quick_picks( how_many_tickets, ticket_quick_picks )
+            tickets = quick_picks( how_many_tickets, g_ticket_quick_picks )
         else:
 #            print( "*** get_tickets() is adding %d quick picks" % (how_many_tickets - last_key_index) )    # DEBUG
             tickets = copy.deepcopy( played_ticket_map[last_key_index] )
-            tickets.extend( quick_picks( how_many_tickets - last_key_index, ticket_quick_picks ) )
+            tickets.extend( quick_picks( how_many_tickets - last_key_index, g_ticket_quick_picks ) )
 
     return tickets
 
 
-def multiple_plays( played_ticket_map, quick_pick_list, winning_numbers, number_of_tickets ):
+def multiple_plays( played_ticket_map, quick_pick_list_const, winning_numbers, number_of_tickets ):
     '''Compares tickets to an array of winning numbers and calculates what each ticket won over x number of games played.
     The 'amount_won' member will be set for any tickets that won.
     @param played_ticket_map: A map of # of tickets to array of PlayedTickets to choose from.
-    @param quick_pick_list: A list of QuickPick tickets to choose from.
+    @param quick_pick_list_const: A list of QuickPick tickets to choose from.
     @param winning_numbers: An array of WinningNumbers objects.
     @param number_of_tickets: The usual number of tickets bought (assuming no extra or free tickets).'''
 
-    global ticket_quick_picks
+    global g_ticket_quick_picks, g_config
 
     extra_tickets = 0
     extra_quick_picks = 0
@@ -449,41 +465,49 @@ def multiple_plays( played_ticket_map, quick_pick_list, winning_numbers, number_
         total_amount_won = 0
         game_num += 1
 
+        if g_config['verbose']:
+            print( "Winning numbers are: %s" % winning_ticket )
+
         # Check the hand picked tickets.
         how_many_tickets = number_of_tickets + extra_tickets
         tickets = get_tickets( played_ticket_map, how_many_tickets, keys )
 #        print( "*** get_tickets() returned %d tickets" % len(tickets) )    # DEBUG
 
+        # Play the numbers we picked.
         (amount_won, tickets_won) = single_play( tickets, winning_ticket )
         total_amount_won = total_amount_won + amount_won
         total_tickets_won = total_tickets_won + tickets_won
 
         # Check the quick picks.
-        how_many_quick_picks = (config['how_many_quick_pick_lines'] * number_of_tickets) + extra_quick_picks
+        how_many_quick_picks = (g_config['how_many_quick_pick_lines'] * number_of_tickets) + extra_quick_picks
 #        print( "*** how_many_quick_picks = %d" % how_many_quick_picks )    # DEBUG
+
+        # Make a copy of quick_pick_list_const.
+        quick_pick_list = quick_pick_list_const[0:len(quick_pick_list_const)]
 
         # If the quick_pick pool isn't big enough, increase the pool size.
         if len( quick_pick_list ) < how_many_quick_picks:
 #            print( "***** len( quick_pick_list ) = %d" % len( quick_pick_list ) )   # DEBUG
-            quick_pick_list.extend( quick_picks( how_many_quick_picks - len(quick_pick_list), ticket_quick_picks ) )
+            quick_pick_list.extend( quick_picks( how_many_quick_picks - len(quick_pick_list), g_ticket_quick_picks ) )
 
+        # Now play the quick picks.
         (amount_won, tickets_won) = single_play( quick_pick_list[0:how_many_quick_picks], winning_ticket )
         total_amount_won = total_amount_won + amount_won
         total_tickets_won = total_tickets_won + tickets_won
 
         # Now change the number of quick picks and extra money to reflect what we just won.
-        if config['verbose']:
-            print( "[Game %d]: We won: $%d, and %d Free Tickets.\n" % (game_num, total_amount_won, total_tickets_won) )
+        if g_config['verbose']:
+            print( "[Game %d]: We won: $%d, and %d Free Tickets.\n\n" % (game_num, total_amount_won, total_tickets_won) )
 
-        extra_tickets = int( (total_amount_won + money_left_over) / config['cost_per_ticket'] )
-        money_left_over = total_amount_won + money_left_over - (extra_tickets * config['cost_per_ticket'])
+        extra_tickets = int( (total_amount_won + money_left_over) / g_config['cost_per_ticket'] )
+        money_left_over = total_amount_won + money_left_over - (extra_tickets * g_config['cost_per_ticket'])
         extra_quick_picks = total_tickets_won
 
 
 def main():
     '''The start of the program.'''
 
-    global ticket_quick_picks
+    global g_ticket_quick_picks, g_quick_pick_file, g_config, g_total_money_won, g_total_tickets_won, g_prizes_won
 
     # Create the arg parser.
     usage = """\
@@ -507,6 +531,8 @@ usage: %prog -c <config_file> -t <tickets_file> -w <winning_numbers_file> [-q <q
     parser.add_option( '-v', '--verbose', action='store_true', dest='verbose' )
     (options, args) = parser.parse_args()
 
+    if len( args ):
+        parser.error( "The following arguments are unrecognized: %s" % str( args ) )
 
     if (not options.config_file):
         parser.error( "--config is a required parameter!" )
@@ -514,44 +540,41 @@ usage: %prog -c <config_file> -t <tickets_file> -w <winning_numbers_file> [-q <q
     # Load the main config file.
     load_config( options.config_file )
     ticket_map = None
-    config['debug_mode'] = False
-    config['verbose'] = False
+    g_config['debug_mode'] = False
+    g_config['verbose'] = False
 
     if options.debug_mode:
-        config['debug_mode'] = True
+        g_config['debug_mode'] = True
 
     if options.verbose:
-        config['verbose'] = True
+        g_config['verbose'] = True
 
-    if config['verbose']:
+    if g_config['verbose']:
         # Print out current configuration.
-        print( "min_number = %s" % config['min_number'] )
-        print( "max_number = %s" % config['max_number'] )
-        print( "how_many_numbers = %s" % config['how_many_numbers'] )
-        print( "how_many_bonus = %s" % config['how_many_bonus'] )
-        print( "how_many_hand_picked_lines = %s" % config['how_many_hand_picked_lines'] )
-        print( "how_many_quick_pick_lines = %s" % config['how_many_quick_pick_lines'] )
-        print( "cost_per_ticket = %s" % config['cost_per_ticket'] )
-        print( "quick_pick_pool_size = %s" % config['quick_pick_pool_size'] )
-        print( "how_many_tickets_bought = %s" % config['how_many_tickets_bought'] )
-        print( "verbose mode = %s\n" % str(config['verbose']) )
+        print( "min_number = %s" % g_config['min_number'] )
+        print( "max_number = %s" % g_config['max_number'] )
+        print( "how_many_numbers = %s" % g_config['how_many_numbers'] )
+        print( "how_many_bonus = %s" % g_config['how_many_bonus'] )
+        print( "how_many_hand_picked_lines = %s" % g_config['how_many_hand_picked_lines'] )
+        print( "how_many_quick_pick_lines = %s" % g_config['how_many_quick_pick_lines'] )
+        print( "cost_per_ticket = %s" % g_config['cost_per_ticket'] )
+        print( "quick_pick_pool_size = %s" % g_config['quick_pick_pool_size'] )
+        print( "how_many_tickets_bought = %s" % g_config['how_many_tickets_bought'] )
+        print( "verbose mode = %s\n" % str(g_config['verbose']) )
 
 
     # Load the quick pick pool from a file or generate the numbers.
     quick_pick_pool = []
     if options.quick_pick_file:
+        g_quick_pick_file = options.quick_pick_file
         quick_pick_map = load_tickets_txt( options.quick_pick_file, QuickPick )
         for key, val in quick_pick_map.items():
             quick_pick_pool = val
     else:
-        quick_pick_pool = quick_picks( config['quick_pick_pool_size'] )
-
-    # Move half the quick pick pool to ticket_quick_picks for use with normal tickets.
-    for i in range( (len(quick_pick_pool) / 2) ):
-        ticket_quick_picks.append( quick_pick_pool.pop(0) )
+        quick_pick_pool = quick_picks( g_config['quick_pick_pool_size'] )
 
 
-    if (options.output_file):
+    if (options.output_file):   # Just output some quick picks.
         if ((options.tickets_file) or (options.winning_numbers) or (options.text_mode)):
             parser.error( "--output cannot be used with --tickets or --winning-numbers or --text!" )
         else:
@@ -560,7 +583,11 @@ usage: %prog -c <config_file> -t <tickets_file> -w <winning_numbers_file> [-q <q
             for quick_pick in quick_pick_pool:
                 fd.write( str( quick_pick ) + '\n' )
             fd.close()
-    else:
+    else:   # Play the games.
+        # Move half the quick pick pool to g_ticket_quick_picks for use with normal tickets.
+        for i in range( (len(quick_pick_pool) / 2) ):
+            g_ticket_quick_picks.append( quick_pick_pool.pop(0) )
+
         if (not options.tickets_file) or (not options.winning_numbers):
             parser.error( "Incorrect number of arguments!" )
         else:
@@ -573,8 +600,12 @@ usage: %prog -c <config_file> -t <tickets_file> -w <winning_numbers_file> [-q <q
                 ticket_map = load_tickets_conf( options.tickets_file )
 
             # Start the simulation.
-            multiple_plays( ticket_map, quick_pick_pool, winning_numbers, config['how_many_tickets_bought'] )
-            print( "After %d games, we won a total of $%d and %d Free Tickets." % (len( winning_numbers ), total_money_won, total_tickets_won) )
+            multiple_plays( ticket_map, quick_pick_pool, winning_numbers, g_config['how_many_tickets_bought'] )
+            print( "After %d games, we won a total of $%d and %d Free Tickets." % (len( winning_numbers ), g_total_money_won, g_total_tickets_won) )
+
+            for (key, value) in sorted( g_prizes.items() ):
+                if g_prizes_won.has_key( value ):
+                    print( "    '%s' won, %d times." % (value, g_prizes_won[value]) ) 
 
 
 if __name__ == "__main__":
