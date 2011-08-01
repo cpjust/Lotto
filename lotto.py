@@ -12,6 +12,8 @@ g_total_money_won = 0
 g_total_tickets_won = 0
 g_prizes_won = {}           # Format: {'3':3, '3+1':2, '4':2 ...}
 g_quick_pick_file = ''
+g_how_many_tickets_played = 0
+g_how_many_tickets_won = 0
 
 
 class TicketNumbers( object ):
@@ -80,7 +82,7 @@ class PlayedTicket( TicketNumbers ):
         @param game_index: (optional) The game index for this game.  Defaults to 1 + the number of games recorded.
         @return: A tuple of ($$ won, # free tickets won).'''
 
-        global g_config, g_prizes, g_prize_amounts, g_prizes_won
+        global g_config, g_prizes, g_prize_amounts, g_prizes_won, g_how_many_tickets_won
         nums_correct = 0
         bonus_correct = 0
         amount_won = 0
@@ -101,10 +103,12 @@ class PlayedTicket( TicketNumbers ):
             main_nums = key[0]
             bonus_nums = key[1]
 
+            # BUG: It's not recognizing '3+1' wins, just '3', '4'...
             if (main_nums == nums_correct) and ((bonus_nums == bonus_correct) or (bonus_nums == 0)):
                 if not g_prizes_won.has_key( value ):
                     g_prizes_won[value] = 0
 
+                g_how_many_tickets_won = g_how_many_tickets_won + 1
                 g_prizes_won[value] = g_prizes_won[value] + 1  # Increment map of how many times each prize won. 
 
                 # We won.   Now figure out what we won.
@@ -115,8 +119,9 @@ class PlayedTicket( TicketNumbers ):
                     amount_won = 0
                     tickets_won = 1
 
-                if g_config['verbose']:
-                    print( "Ticket %s won: $%d & %d Free tickets." % (str(self.numbers), amount_won, tickets_won) )
+        if amount_won or tickets_won:
+            if g_config['verbose']:
+                print( "Ticket %s won: $%d & %d Free tickets." % (str(self.numbers), amount_won, tickets_won) )
 
         # Set and return the amount won.
         self.amount_won[game_index] = amount_won
@@ -382,7 +387,7 @@ def single_play( played_tickets, winning_numbers ):
     @param winning_numbers: A WinningNumbers object.
     @return: A tuple of ($$ won, # free tickets won).'''
 
-    global g_total_money_won, g_total_tickets_won, g_config
+    global g_total_money_won, g_total_tickets_won, g_config, g_how_many_tickets_played
     total_money = 0
     total_tickets = 0
     num_tickets = len( played_tickets )
@@ -390,6 +395,7 @@ def single_play( played_tickets, winning_numbers ):
     # Compare each ticket against the winning numbers.
     for i in range( 0, num_tickets - 1 ):
         ticket = played_tickets[i]
+        g_how_many_tickets_played = g_how_many_tickets_played + 1
 
         if g_config['verbose']:
             print( "[%s] = %s" % (played_tickets[i].name(), str(played_tickets[i])) )
@@ -507,7 +513,8 @@ def multiple_plays( played_ticket_map, quick_pick_list_const, winning_numbers, n
 def main():
     '''The start of the program.'''
 
-    global g_ticket_quick_picks, g_quick_pick_file, g_config, g_total_money_won, g_total_tickets_won, g_prizes_won
+    global g_ticket_quick_picks, g_quick_pick_file, g_config, g_total_money_won, g_total_tickets_won, g_prizes_won, \
+        g_how_many_tickets_played, g_how_many_tickets_won
 
     # Create the arg parser.
     usage = """\
@@ -602,6 +609,7 @@ usage: %prog -c <config_file> -t <tickets_file> -w <winning_numbers_file> [-q <q
             # Start the simulation.
             multiple_plays( ticket_map, quick_pick_pool, winning_numbers, g_config['how_many_tickets_bought'] )
             print( "After %d games, we won a total of $%d and %d Free Tickets." % (len( winning_numbers ), g_total_money_won, g_total_tickets_won) )
+            print( "We played %d ticket lines and %d lines won." % (g_how_many_tickets_played, g_how_many_tickets_won) )
 
             for (key, value) in sorted( g_prizes.items() ):
                 if g_prizes_won.has_key( value ):
