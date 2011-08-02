@@ -103,7 +103,6 @@ class PlayedTicket( TicketNumbers ):
             main_nums = key[0]
             bonus_nums = key[1]
 
-            # BUG: It's not recognizing '3+1' wins, just '3', '4'...
             if (main_nums == nums_correct) and ((bonus_nums == bonus_correct) or (bonus_nums == 0)):
                 if not g_prizes_won.has_key( value ):
                     g_prizes_won[value] = 0
@@ -157,7 +156,9 @@ class WinningNumbers( TicketNumbers ):
         global g_config
         bonus_numbers = bonus_numbers or []
         super( WinningNumbers, self ).__init__( numbers )
-        self.bonus_numbers = sorted( bonus_numbers )
+        self.bonus_numbers = []
+        if bonus_numbers:
+            self.bonus_numbers = sorted( bonus_numbers )
         tmp = []
 
         if len( bonus_numbers ) != int(g_config['how_many_bonus']):
@@ -167,6 +168,21 @@ class WinningNumbers( TicketNumbers ):
             if (num in tmp) or (num in self.numbers):
                 raise Exception( "You cannot have duplicate numbers!" )
             tmp.append( num )
+
+    def __str__( self ):
+        '''Converts this class into a string.'''
+        ret = super( WinningNumbers, self ).__str__()
+
+        str_bnums = []
+
+        if len( self.bonus_numbers ):
+            for i in range( len( self.bonus_numbers ) ):
+                str_bnums.append( str( self.bonus_numbers[i] ) )
+
+            ret = ret + ' + ' + ', '.join( str_bnums )
+
+        return ret
+            
 
     def name( self ):
         '''Return the name of this class type.'''
@@ -280,11 +296,7 @@ def load_winning_numbers( filename ):
 
     # Parse the string lines into arrays of numbers.
     for line in lines:
-        num_list = line.split( ',' )
-
-        for i in range(0, len( num_list ) - 1):
-            num_list[i] = int( num_list[i].strip().strip('\n') )
-        numbers.append( num_list )
+        numbers.append( parse_number_line( line ) )
 
     how_many_numbers = g_config['how_many_numbers']
     how_many_bonus = g_config['how_many_bonus']
