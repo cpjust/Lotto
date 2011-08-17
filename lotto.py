@@ -2,6 +2,8 @@
 
 import random, ConfigParser, ast, copy
 from optparse import OptionParser
+from time import time
+#import gc   # XXX: Debug memory leaks.
 
 # Global variables.
 g_config = {}               # Stores GameType config options.
@@ -14,6 +16,10 @@ g_prizes_won = {}           # Format: {'3':3, '3+1':2, '4':2 ...}
 g_quick_pick_file = ''
 g_how_many_tickets_played = 0
 g_how_many_tickets_won = 0
+
+
+#gc.set_debug( gc.DEBUG_STATS | gc.DEBUG_LEAK )   # XXX: Debug memory leaks
+#gc.set_debug( gc.DEBUG_LEAK )   # XXX: Debug memory leaks
 
 
 class TicketNumbers( object ):
@@ -235,7 +241,7 @@ def load_tickets_conf( filename ):
 
     # Then read each ticket group and add the tickets to the map.
     for group in all_groups:
-        if not conf.has_section( 'AllTicketGroups' ):
+        if not conf.has_section( str( group ) ):
             raise Exception( "Invalid config file!  [%d] section is missing!" % group )
 
         tickets = []
@@ -280,17 +286,13 @@ def load_tickets_txt( filename, ticket_class = PlayedTicket ):
     return tickets
 
 
-def load_winning_numbers( filename ):
+def load_winning_numbers( lines ):
     '''Loads the winning numbers from a CSV file and returns an array of WinningNumbers.
-    @param filename: The filename of the CSV containing the winning numbers.
+    @param lines: The lines of the CSV containing the winning numbers.
     @return: An array of WinningNumbers objects.'''
 
     global g_config
 
-    # Read the file into an array of lines.
-    fd = open( filename, 'r' )
-    lines = fd.readlines()
-    fd.close()
     numbers = []
     winning_tickets = []
 
@@ -358,7 +360,7 @@ def quick_pick():
             numbers.append( num )
 
     # If we're using a quick pick file, this function should never be called, so print this to let us know.
-    if g_quick_pick_file:
+    if g_config['verbose'] and g_quick_pick_file:
         print( "Warning: You specified a quick pick file, but quick_pick() was called and returned: %s" % str(numbers) )
 
     return QuickPick( numbers )
@@ -378,13 +380,13 @@ def quick_picks( number_of_tickets, quick_pick_list=None ):
 #            print( "*** quick_pick_list is big enough." )   # DEBUG
             tickets.extend( quick_pick_list[0:number_of_tickets] )
         else:
-#            print( "*** quick_pick_list is too small." )    # DEBUG
+            print( "*** quick_pick_list is too small." )    # DEBUG
             tickets.extend( quick_pick_list )
 
             for i in range( number_of_tickets - len( quick_pick_list ) ):
                 tickets.append( quick_pick() )
     else:
- #       print( "*** quick_pick_list is None." ) # DEBUG
+        print( "*** quick_pick_list is None." ) # DEBUG
         for i in range( number_of_tickets ):
             tickets.append( quick_pick() )
 
@@ -449,10 +451,11 @@ def get_tickets( played_ticket_map, how_many_tickets, keys ):
 
         if last_key_index == -1:
             # Looks like we're using all quick picks.
-#            print( "*** get_tickets() is adding all %d quick picks" % how_many_tickets )                   # DEBUG
+            print( "*** get_tickets() is adding all %d quick picks" % how_many_tickets )                   # DEBUG
             tickets = quick_picks( how_many_tickets, g_ticket_quick_picks )
         else:
-#            print( "*** get_tickets() is adding %d quick picks" % (how_many_tickets - last_key_index) )    # DEBUG
+            if (how_many_tickets - last_key_index) > 50:
+                print( "*** get_tickets() is adding %d quick picks" % (how_many_tickets - last_key_index) )    # DEBUG
             tickets = copy.deepcopy( played_ticket_map[last_key_index] )
             tickets.extend( quick_picks( how_many_tickets - last_key_index, g_ticket_quick_picks ) )
 
@@ -465,17 +468,22 @@ def multiple_plays( played_ticket_map, quick_pick_list_const, winning_numbers, n
     @param played_ticket_map: A map of # of tickets to array of PlayedTickets to choose from.
     @param quick_pick_list_const: A list of QuickPick tickets to choose from.
     @param winning_numbers: An array of WinningNumbers objects.
-    @param number_of_tickets: The usual number of tickets bought (assuming no extra or free tickets).'''
+    @param number_of_tickets: The usual number of tickets bought (assuming no extra or free tickets).
+    @return: A tuple of: (extra_tickets, extra_quick_picks, money_left_over)'''
 
     global g_ticket_quick_picks, g_config
 
     extra_tickets = 0
     extra_quick_picks = 0
+    money_left_over = 0
+
     amount_won = 0
     tickets_won = 0
-    money_left_over = 0
     game_num = 0
     keys = sorted( played_ticket_map.keys() )
+#    print( "*** played_ticket_map size = %d" % len(played_ticket_map) )   # XXX: Debug memory leaks.
+#    print( "*** quick_pick_list_const size = %d" % len(quick_pick_list_const) )   # XXX: Debug memory leaks.
+#    print( "*** winning_numbers size = %d" % len(winning_numbers) )   # XXX: Debug memory leaks.
 
     # For each winning ticket, check if any of our tickets won.
     for winning_ticket in winning_numbers:
@@ -493,6 +501,9 @@ def multiple_plays( played_ticket_map, quick_pick_list_const, winning_numbers, n
 
         # Play the numbers we picked.
         (amount_won, tickets_won) = single_play( tickets, winning_ticket )
+        for ticket in tickets:
+            del ticket
+        del tickets
         total_amount_won = total_amount_won + amount_won
         total_tickets_won = total_tickets_won + tickets_won
 
@@ -520,6 +531,8 @@ def multiple_plays( played_ticket_map, quick_pick_list_const, winning_numbers, n
         extra_tickets = int( (total_amount_won + money_left_over) / g_config['cost_per_ticket'] )
         money_left_over = total_amount_won + money_left_over - (extra_tickets * g_config['cost_per_ticket'])
         extra_quick_picks = total_tickets_won
+
+    return (extra_tickets, extra_quick_picks, money_left_over)
 
 
 def main():
@@ -611,18 +624,51 @@ usage: %prog -c <config_file> -t <tickets_file> -w <winning_numbers_file> [-q <q
             parser.error( "Incorrect number of arguments!" )
         else:
             # Load the tickets & winning numbers.
-            winning_numbers = load_winning_numbers( options.winning_numbers )
-
             if options.text_mode:
                 ticket_map = load_tickets_txt( options.tickets_file )
             else:
                 ticket_map = load_tickets_conf( options.tickets_file )
 
-            # Start the simulation.
-            multiple_plays( ticket_map, quick_pick_pool, winning_numbers, g_config['how_many_tickets_bought'] )
-            print( "After %d games, we won a total of $%d and %d Free Tickets." % (len( winning_numbers ), g_total_money_won, g_total_tickets_won) )
-            print( "We played %d ticket lines and %d lines won." % (g_how_many_tickets_played, g_how_many_tickets_won) )
+            # Read the file into an array of lines.
+            fd = open( options.winning_numbers, 'r' )
+            lines = []
+            extra_tickets     = 0
+            extra_quick_picks = 0
+            money_left_over   = 0
 
+            iter = 0   # XXX: Debug memory leak.
+            while True:
+                seconds = time()
+                iter = iter + 1   # XXX: Debug memory leak
+                print( "====== Iteration %d" % iter )   # XXX: Debug memory leak
+
+                for i in range( 1000 ):
+                    line = fd.readline()
+                    if not line:
+                        break
+                    lines.append( line )
+                if not lines:
+                    break
+
+                winning_numbers = load_winning_numbers( lines )
+
+                # Start the simulation.
+                (extra_tickets, extra_quick_picks, money_left_over) = multiple_plays( ticket_map, quick_pick_pool, winning_numbers, g_config['how_many_tickets_bought'] )
+                del lines
+                lines = []
+
+                print( "*** The iteration took %f seconds." % float(time() - seconds) )   # XXX: Debug memory leaks.
+#                print( "*** GC.get_objects() returned %d objects." % len( gc.get_objects() ) )   # XXX: Debug memory leaks.
+#                print( "*** GC.get_count()   returned %s." % str(gc.get_count()) )  # XXX: Debug memory leaks.
+#                print( "*** GC.garbage       returned %d objects." % len( gc.garbage ) )   # XXX: Debug memory leaks.
+#                print( "***** gc.get_referents() returned %d" % len(gc.get_referents(winning_numbers)) )   # XXX: Debug memory leaks.
+#                gc.collect()
+
+            print( "After %d games, we won a total of $%d and %d Free Tickets ($%d)." % (len( winning_numbers ), g_total_money_won, g_total_tickets_won, (g_total_tickets_won * 5 + g_total_money_won)) )
+            print( "We played %d ticket lines and %d lines won." % (g_how_many_tickets_played, g_how_many_tickets_won) )
+            fd.close()
+
+            # Now display the results of all the games.
             for (key, value) in sorted( g_prizes.items() ):
                 if g_prizes_won.has_key( value ):
                     print( "    '%s' won, %d times." % (value, g_prizes_won[value]) ) 
