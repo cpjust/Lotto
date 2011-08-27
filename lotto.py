@@ -30,18 +30,13 @@ class TicketNumbers( object ):
         '''Constructor.
         @param numbers: The numbers for this ticket.'''
 
-        self.numbers = numbers
         self._set_numbers( numbers )
-
-    def name( self ):
-        '''Return the name of this class type.'''
-        return "TicketNumbers"
 
     def __str__( self ):
         '''Returns a string of the number list.'''
         str_nums = []
-        for i in range( len( self.numbers ) ):
-            str_nums.append( str( self.numbers[i] ) )
+        for num in self.numbers:
+            str_nums.append( num )
 
         return ', '.join( str_nums )
 
@@ -52,18 +47,18 @@ class TicketNumbers( object ):
         global g_config
         self.numbers = sorted( numbers )
 
-        if len( self.numbers ) != int(g_config['how_many_numbers']):
+        if len( self.numbers ) != g_config['how_many_numbers']:
             raise Exception( "You must have %d numbers, but found %d numbers: %s" % (g_config['how_many_numbers'], len( self.numbers ), str(self.numbers)) )
         tmp = []
 
-        for num in self.numbers:
-            # Check if numbers are in range.
-            if ( num < int(g_config['min_number']) ) or ( num > int(g_config['max_number']) ):
-                raise Exception( "The numbers must be between %d & %d!" % (int(g_config['min_number']), int(g_config['max_number'])) )
-            # Check for duplicate numbers.
-            if num in tmp:
-                raise Exception( "You cannot have duplicate numbers!  %d in %s" % (num, str( self.numbers )) )
-            tmp.append( num )
+        # Check if numbers are in range.
+        if min( self.numbers ) < g_config['min_number']:
+             raise Exception( "The numbers must be between %d & %d!" % (g_config['min_number'], g_config['max_number']) )
+        if max( self.numbers ) > g_config['max_number']:
+             raise Exception( "The numbers must be between %d & %d!" % (g_config['min_number'], g_config['max_number']) )
+        # Check for duplicate numbers.
+        if len( set(self.numbers) ) != len( self.numbers ):
+             raise Exception( "You cannot have duplicate numbers!  %s" % str( self.numbers ) )
 
 
 class PlayedTicket( TicketNumbers ):
@@ -75,17 +70,10 @@ class PlayedTicket( TicketNumbers ):
         @param numbers: The numbers for this ticket.'''
 
         super( PlayedTicket, self ).__init__( numbers )
-        self.amount_won = {}    # Map of Game Index to $$ won each play.
-        self.tickets_won = {}   # Map of Game Index to Free Tickets won each play.
 
-    def name( self ):
-        '''Return the name of this class type.'''
-        return "PlayedTicket"
-
-    def compare_with( self, winning_numbers, game_index=None ):
+    def compare_with( self, winning_numbers ):
         '''Compares this ticket with the specified winning numbers and sets the amount_won & tickets_won members accordingly.
         @param winning_numbers: The winning numbers to compare against.
-        @param game_index: (optional) The game index for this game.  Defaults to 1 + the number of games recorded.
         @return: A tuple of ($$ won, # free tickets won).'''
 
         global g_config, g_prizes, g_prize_amounts, g_prizes_won, g_how_many_tickets_won
@@ -93,9 +81,6 @@ class PlayedTicket( TicketNumbers ):
         bonus_correct = 0
         amount_won = 0
         tickets_won = 0
-
-        if game_index == None:
-            game_index = len( self.amount_won )
 
         # Check each individual number of the ticket against the winning numbers.
         for num in self.numbers:
@@ -106,8 +91,7 @@ class PlayedTicket( TicketNumbers ):
 
         # Now see if we won anything.
         for (key, value) in g_prizes.items():
-            main_nums = key[0]
-            bonus_nums = key[1]
+            main_nums, bonus_nums = key
 
             if (main_nums == nums_correct) and ((bonus_nums == bonus_correct) or (bonus_nums == 0)):
                 if not g_prizes_won.has_key( value ):
@@ -128,9 +112,6 @@ class PlayedTicket( TicketNumbers ):
             if g_config['verbose']:
                 print( "Ticket %s won: $%d & %d Free tickets." % (str(self.numbers), amount_won, tickets_won) )
 
-        # Set and return the amount won.
-        self.amount_won[game_index] = amount_won
-        self.tickets_won[game_index] = tickets_won
         return (amount_won, tickets_won)
 
 
@@ -142,12 +123,6 @@ class QuickPick( PlayedTicket ):
         @param numbers: The numbers for this ticket.'''
 
         super( QuickPick, self ).__init__( numbers )
-        self.amount_won = {}    # Map of Game Index to $$ won each play.
-        self.tickets_won = {}   # Map of Game Index to Free Tickets won each play.
-
-    def name( self ):
-        '''Return the name of this class type.'''
-        return "QuickPick"
 
 
 class WinningNumbers( TicketNumbers ):
@@ -162,13 +137,11 @@ class WinningNumbers( TicketNumbers ):
         global g_config
         bonus_numbers = bonus_numbers or []
         super( WinningNumbers, self ).__init__( numbers )
-        self.bonus_numbers = []
-        if bonus_numbers:
-            self.bonus_numbers = sorted( bonus_numbers )
+        self.bonus_numbers = sorted( bonus_numbers )
         tmp = []
 
-        if len( bonus_numbers ) != int(g_config['how_many_bonus']):
-            raise Exception( "You must have %d bonus numbers!" % int(g_config['how_many_bonus']) )
+        if len( bonus_numbers ) != g_config['how_many_bonus']:
+            raise Exception( "You must have %d bonus numbers!" % g_config['how_many_bonus'] )
 
         for num in bonus_numbers:
             if (num in tmp) or (num in self.numbers):
@@ -182,17 +155,12 @@ class WinningNumbers( TicketNumbers ):
         str_bnums = []
 
         if len( self.bonus_numbers ):
-            for i in range( len( self.bonus_numbers ) ):
-                str_bnums.append( str( self.bonus_numbers[i] ) )
+            for bnum in self.bonus_numbers:
+                str_bnums.append( bnum )
 
             ret = ret + ' + ' + ', '.join( str_bnums )
 
         return ret
-            
-
-    def name( self ):
-        '''Return the name of this class type.'''
-        return "WinningNumbers"
 
 
 def load_config( filename ):
@@ -412,7 +380,7 @@ def single_play( played_tickets, winning_numbers ):
         g_how_many_tickets_played = g_how_many_tickets_played + 1
 
         if g_config['verbose']:
-            print( "[%s] = %s" % (played_tickets[i].name(), str(played_tickets[i])) )
+            print( "[%s] = %s" % (played_tickets[i].__class__.__name__, str(played_tickets[i])) )
 
         (money_won, tickets_won) = ticket.compare_with( winning_numbers )
         total_money = total_money + money_won
@@ -583,15 +551,15 @@ usage: %prog -c <config_file> -t <tickets_file> -w <winning_numbers_file> [-q <q
 
     if g_config['verbose']:
         # Print out current configuration.
-        print( "min_number = %s" % g_config['min_number'] )
-        print( "max_number = %s" % g_config['max_number'] )
-        print( "how_many_numbers = %s" % g_config['how_many_numbers'] )
-        print( "how_many_bonus = %s" % g_config['how_many_bonus'] )
-        print( "how_many_hand_picked_lines = %s" % g_config['how_many_hand_picked_lines'] )
-        print( "how_many_quick_pick_lines = %s" % g_config['how_many_quick_pick_lines'] )
-        print( "cost_per_ticket = %s" % g_config['cost_per_ticket'] )
-        print( "quick_pick_pool_size = %s" % g_config['quick_pick_pool_size'] )
-        print( "how_many_tickets_bought = %s" % g_config['how_many_tickets_bought'] )
+        print( "min_number = %d" % g_config['min_number'] )
+        print( "max_number = %d" % g_config['max_number'] )
+        print( "how_many_numbers = %d" % g_config['how_many_numbers'] )
+        print( "how_many_bonus = %d" % g_config['how_many_bonus'] )
+        print( "how_many_hand_picked_lines = %d" % g_config['how_many_hand_picked_lines'] )
+        print( "how_many_quick_pick_lines = %d" % g_config['how_many_quick_pick_lines'] )
+        print( "cost_per_ticket = %d" % g_config['cost_per_ticket'] )
+        print( "quick_pick_pool_size = %d" % g_config['quick_pick_pool_size'] )
+        print( "how_many_tickets_bought = %d" % g_config['how_many_tickets_bought'] )
         print( "verbose mode = %s\n" % str(g_config['verbose']) )
 
 
