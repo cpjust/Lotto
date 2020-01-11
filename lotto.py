@@ -496,8 +496,15 @@ def multiple_plays( played_ticket_map, quick_pick_list_const, winning_numbers, n
         if g_config['verbose']:
             print( "[Game %d]: We won: $%d, and %d Free Tickets.\n\n" % (game_num, total_amount_won, total_tickets_won) )
 
-        extra_tickets = int( (total_amount_won + money_left_over) / g_config['cost_per_ticket'] )
-        money_left_over = total_amount_won + money_left_over - (extra_tickets * g_config['cost_per_ticket'])
+        # Use the money we won to buy extra tickets (unless we won a significant amount).
+        # i.e. Use what we won to buy tickets unless we won at least 5x more than we usually spend.
+        if (total_amount_won + money_left_over) > (g_config['cost_per_ticket'] * g_config['how_many_tickets_bought'] * 5):
+            extra_tickets = 0
+            money_left_over = 0
+        else:
+            extra_tickets = int( (total_amount_won + money_left_over) / g_config['cost_per_ticket'] )
+            money_left_over = total_amount_won + money_left_over - (extra_tickets * g_config['cost_per_ticket'])
+
         extra_quick_picks = total_tickets_won
 
     return (extra_tickets, extra_quick_picks, money_left_over)
@@ -511,6 +518,9 @@ def main():
 
     # Create the arg parser.
     usage = """\
+    This program simulates playing all of the games in the winning_numbers_file using the tickets in the tickets_file.
+    You can either let the program choose random quick-picks for any free tickets, or use the quick_pick_file to choose from the same set of quick pick tickets.
+    
 usage: %prog -c <config_file> -t <tickets_file> -w <winning_numbers_file> [-q <quick_pick_file>] [-o <quick_pick_output_file>] [-T] [-v]
    or: %prog -c <config_file> -o <quick_pick_output_file> [-v]
     -c, --config             The main config file.
@@ -519,7 +529,10 @@ usage: %prog -c <config_file> -t <tickets_file> -w <winning_numbers_file> [-q <q
     -w, --winning-numbers    The winning numbers csv file.
     -d, --debug              Debug mode.
     -T, --text               Read tickets_file as a text file instead of a config file.
-    -v, --verbose            Enable verbose mode."""
+    -v, --verbose            Enable verbose mode.
+    
+    Ex.  %prog -c lotto.conf -t wheel-15.conf -w winning_numbers.csv
+    """
     parser = OptionParser( usage=usage )
     parser.add_option( '-c', '--config', dest='config_file' )
     parser.add_option( '-t', '--tickets', dest='tickets_file' )

@@ -25,6 +25,12 @@ def print_line( line, min_num, max_num, r_index ):
 
 def main():
     usage = """\
+    This program generates all possible lotto tickets for the given values.  Ex. '%prog -m 1 -M 49 -n 6' will produce:
+    [1, 2, 3, 4, 5, 6]
+    [1, 2, 3, 4, 5, 7]
+    [1, 2, 3, 4, 5, 8]
+    ...
+    [44, 45, 46, 47, 48, 49]
 usage: %prog --min <min_num> --max <max_num> --num <num>"""
 
     parser = OptionParser( usage=usage )

@@ -2,7 +2,7 @@
 
 from optparse import OptionParser
 import math
-from mpmath import mpf, mp      # apt-get install python-mpmath
+from mpmath import mpf, mp      # Install with:  apt-get install python-mpmath
 
 
 def choose( x, n ):
@@ -11,8 +11,8 @@ def choose( x, n ):
     # ( n ) = --------
     #         n!(x-n)!
     x_fac = mpf( math.factorial( x ) )
-    n_fac = mpf(math.factorial( n ) )
-    xn_fac = mpf(math.factorial( x - n ) )
+    n_fac = mpf( math.factorial( n ) )
+    xn_fac = mpf( math.factorial( x - n ) )
     ret = (x_fac / (n_fac * xn_fac))
     return ret
 
@@ -20,8 +20,11 @@ def choose( x, n ):
 def main():
     usage = """\
 usage: %prog --max <max_num> --num <num> --prize <num>
-Example: %prog -m 49 -n 6 -p 3
-Will return the odds of getting 3 numbers right for lotto 6/49."""
+  where: <max_num> is the max numbers you can pick in the game
+         <num> is how many numbers you pick in the game.
+         <prize> is how many numbers you need to get right for a certain prize (ex. 2 numbers = free ticket)
+Example: %prog -m 49 -n 6 -p 2
+Will return the odds of getting 2 numbers right for lotto 6/49."""
 
     parser = OptionParser( usage=usage )
     parser.add_option( '-m', '--max', dest='max_num' )
